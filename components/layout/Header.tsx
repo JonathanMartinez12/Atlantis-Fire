@@ -18,7 +18,7 @@ export default function Header() {
             <img
               src="/atlantis_logo.png"
               alt="Atlantis Fire Protection"
-              className="h-12 md:h-14 w-auto"
+              className="h-16 md:h-20 w-auto"
             />
           </Link>
 

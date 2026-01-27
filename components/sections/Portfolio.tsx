@@ -19,7 +19,7 @@ export default function Portfolio({ label, headline, intro, stats, ctaText, ctaH
   return (
     <section className="bg-cream section-padding">
       <Container>
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="text-center max-w-3xl mx-auto mb-12">
           {/* Content */}
           <div className="animate-fade-in-up">
             {label && (
@@ -29,7 +29,7 @@ export default function Portfolio({ label, headline, intro, stats, ctaText, ctaH
             <p className="body-large mb-8">{intro}</p>
 
             {/* Stats Box */}
-            <Card className="mb-8">
+            <Card className="mb-8 text-left">
               <h3 className="heading-4 text-navy mb-3">{stats.title}</h3>
               <p className="body-text">{stats.text}</p>
             </Card>
@@ -38,45 +38,41 @@ export default function Portfolio({ label, headline, intro, stats, ctaText, ctaH
               {ctaText}
             </Button>
           </div>
-
-          {/* Logo Carousel */}
-          <div className="animate-slide-in-right">
-            <div className="bg-white rounded-lg p-8 shadow-sm overflow-hidden">
-              <p className="label-text text-navy mb-6">OUR BRANDS</p>
-              <div className="relative">
-                <div className="flex animate-scroll-x gap-12">
-                  {/* First set of logos */}
-                  {brandLogos.map((brand) => (
-                    <div
-                      key={brand.name}
-                      className="flex-shrink-0 flex items-center justify-center h-24 w-48"
-                    >
-                      <img
-                        src={brand.logo}
-                        alt={brand.name}
-                        className="max-h-full max-w-full object-contain"
-                      />
-                    </div>
-                  ))}
-                  {/* Duplicate set for seamless loop */}
-                  {brandLogos.map((brand) => (
-                    <div
-                      key={`${brand.name}-duplicate`}
-                      className="flex-shrink-0 flex items-center justify-center h-24 w-48"
-                    >
-                      <img
-                        src={brand.logo}
-                        alt={brand.name}
-                        className="max-h-full max-w-full object-contain"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </Container>
+
+      {/* Full-width Logo Carousel */}
+      <div className="w-full overflow-hidden mt-12">
+        <p className="label-text text-navy mb-6 text-center">OUR BRANDS</p>
+        <div className="flex animate-scroll-x gap-16">
+          {/* First set of logos */}
+          {brandLogos.map((brand) => (
+            <div
+              key={brand.name}
+              className="flex-shrink-0 flex items-center justify-center h-24 w-48"
+            >
+              <img
+                src={brand.logo}
+                alt={brand.name}
+                className="max-h-full max-w-full object-contain"
+              />
+            </div>
+          ))}
+          {/* Duplicate set for seamless loop */}
+          {brandLogos.map((brand) => (
+            <div
+              key={`${brand.name}-duplicate`}
+              className="flex-shrink-0 flex items-center justify-center h-24 w-48"
+            >
+              <img
+                src={brand.logo}
+                alt={brand.name}
+                className="max-h-full max-w-full object-contain"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   )
 }

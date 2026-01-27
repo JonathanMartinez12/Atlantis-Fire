@@ -39,22 +39,39 @@ export default function Portfolio({ label, headline, intro, stats, ctaText, ctaH
             </Button>
           </div>
 
-          {/* Logo Grid */}
+          {/* Logo Carousel */}
           <div className="animate-slide-in-right">
-            <div className="bg-white rounded-lg p-8 shadow-sm">
+            <div className="bg-white rounded-lg p-8 shadow-sm overflow-hidden">
               <p className="label-text text-navy mb-6">OUR BRANDS</p>
-              <div className="grid grid-cols-3 gap-6 items-center">
-                {brandLogos.map((brand) => (
-                  <div
-                    key={brand.name}
-                    className="flex items-center justify-center p-4 h-24"
-                  >
-                    {/* Logo placeholder */}
-                    <div className="w-full h-full bg-gray-100 rounded flex items-center justify-center">
-                      <span className="text-xs text-gray-500 text-center px-2">{brand.name}</span>
+              <div className="relative">
+                <div className="flex animate-scroll-x gap-12">
+                  {/* First set of logos */}
+                  {brandLogos.map((brand) => (
+                    <div
+                      key={brand.name}
+                      className="flex-shrink-0 flex items-center justify-center h-24 w-48"
+                    >
+                      <img
+                        src={brand.logo}
+                        alt={brand.name}
+                        className="max-h-full max-w-full object-contain"
+                      />
                     </div>
-                  </div>
-                ))}
+                  ))}
+                  {/* Duplicate set for seamless loop */}
+                  {brandLogos.map((brand) => (
+                    <div
+                      key={`${brand.name}-duplicate`}
+                      className="flex-shrink-0 flex items-center justify-center h-24 w-48"
+                    >
+                      <img
+                        src={brand.logo}
+                        alt={brand.name}
+                        className="max-h-full max-w-full object-contain"
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

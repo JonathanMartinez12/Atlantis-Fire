@@ -19,7 +19,7 @@ export default function Button({
   className = '',
   ...props
 }: ButtonProps) {
-  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2'
+  const baseStyles = 'inline-flex items-center justify-center rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 btn-text'
 
   const variants = {
     primary: 'bg-coral text-white hover:bg-coral-600 focus:ring-coral shadow-md hover:shadow-lg',
@@ -27,10 +27,11 @@ export default function Button({
     outline: 'border-2 border-navy text-navy hover:bg-navy hover:text-white focus:ring-navy',
   }
 
+  // Default button size: 158px x 34px as per design spec
   const sizes = {
-    sm: 'px-[16px] py-[8px] text-[14px]',
-    md: 'px-[24px] py-[12px] text-[16px]',
-    lg: 'px-[32px] py-[16px] text-[18px]',
+    sm: 'w-[130px] h-[30px] text-[12px]',
+    md: 'w-[158px] h-[34px] text-[14px]',
+    lg: 'w-[180px] h-[40px] text-[14px]',
   }
 
   const buttonClasses = `${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`

@@ -18,39 +18,50 @@
 
 @layer components {
   .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    @apply max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8;
   }
 
   .section-padding {
     @apply py-16 md:py-24;
   }
 
+  /* Palatino 48pt - approximately 64px */
   .heading-1 {
-    @apply text-4xl md:text-5xl lg:text-6xl font-serif font-medium leading-tight;
+    @apply font-serif font-medium leading-tight;
+    font-size: 48px;
   }
 
+  /* Palatino 48pt for section titles */
   .heading-2 {
-    @apply text-3xl md:text-4xl lg:text-5xl font-serif font-medium leading-tight;
+    @apply font-serif font-medium leading-tight;
+    font-size: 48px;
   }
 
   .heading-3 {
     @apply text-2xl md:text-3xl font-serif font-medium leading-snug;
   }
 
+  /* Avenir Demi Bold 28pt - approximately 37px */
   .heading-4 {
-    @apply text-xl md:text-2xl font-serif font-medium;
+    @apply font-sans font-semibold;
+    font-size: 28px;
   }
 
+  /* Palatino 14pt body text */
   .body-large {
-    @apply text-lg md:text-xl text-gray-600 leading-relaxed;
+    @apply text-gray-600 leading-relaxed font-serif;
+    font-size: 14px;
   }
 
   .body-text {
-    @apply text-base text-gray-600 leading-relaxed;
+    @apply text-gray-600 leading-relaxed font-serif;
+    font-size: 14px;
   }
 
+  /* Avenir Bold 14pt for labels */
   .label-text {
-    @apply text-sm font-semibold uppercase tracking-wider text-navy;
+    @apply font-sans font-bold uppercase tracking-wider text-navy;
+    font-size: 14px;
   }
 }
 

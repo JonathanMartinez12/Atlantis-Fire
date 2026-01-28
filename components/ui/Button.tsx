@@ -6,7 +6,7 @@ import { ReactNode, ButtonHTMLAttributes } from 'react'
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode
   variant?: 'primary' | 'secondary' | 'outline'
-  size?: 'sm' | 'md' | 'lg'
+  size?: 'sm' | 'md' | 'lg' | 'header'
   href?: string
   className?: string
 }
@@ -29,8 +29,9 @@ export default function Button({
 
   const sizes = {
     sm: 'px-4 py-2 text-sm',
-    md: 'px-6 py-3 text-base',
+    md: 'w-[158px] h-[34px] text-[14px] font-semibold',
     lg: 'px-8 py-4 text-lg',
+    header: 'w-[158px] h-[34px] text-[14px] font-semibold',
   }
 
   const buttonClasses = `${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`

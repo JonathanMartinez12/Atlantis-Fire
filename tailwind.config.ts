@@ -48,8 +48,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ['Playfair Display', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Palatino Linotype', 'Palatino', 'Georgia', 'serif'],
+        sans: ['Avenir', 'Avenir Next', 'Inter', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

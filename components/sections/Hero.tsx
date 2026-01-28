@@ -25,13 +25,24 @@ export default function Hero({
   return (
     <section className={`${isHome ? 'bg-cream' : 'bg-cream'} section-padding overflow-hidden`}>
       <Container>
-        <div className={`${isHome && showImage ? 'grid lg:grid-cols-2 gap-12 items-center' : ''}`}>
-          {/* Content */}
-          <div className={`${isHome ? 'animate-fade-in-up' : 'max-w-3xl mx-auto text-center animate-fade-in'}`}>
+        <div className={`${isHome && showImage ? 'flex flex-col lg:flex-row gap-6 items-center' : ''}`}>
+          {/* Content - 708px x 715px */}
+          <div
+            className={`${isHome ? 'animate-fade-in-up' : 'max-w-3xl mx-auto text-center animate-fade-in'}`}
+            style={isHome ? { width: '708px', minHeight: '715px', maxWidth: '100%' } : undefined}
+          >
             {label && (
-              <p className="label-text text-navy mb-4">{label}</p>
+              <p
+                className="label-text text-navy mb-4"
+                style={{ width: '230.67px', height: '28px' }}
+              >
+                {label}
+              </p>
             )}
-            <h1 className="heading-1 text-navy mb-6">
+            <h1
+              className="heading-1 text-navy mb-6"
+              style={{ maxWidth: '391.67px' }}
+            >
               {headline}
             </h1>
             {body && (
@@ -40,17 +51,20 @@ export default function Hero({
               </p>
             )}
             {ctaText && ctaHref && (
-              <Button href={ctaHref} variant="primary" size="lg">
+              <Button href={ctaHref} variant="primary" size="md">
                 {ctaText}
               </Button>
             )}
           </div>
 
-          {/* Image Placeholder */}
+          {/* Image Placeholder - 732px x 715px */}
           {isHome && showImage && (
             <div className="relative animate-slide-in-right hidden lg:block">
-              <div className="diagonal-clip bg-gray-400 h-[400px] lg:h-[500px] w-full rounded-lg" aria-hidden="true">
-                {/* Placeholder for hero image */}
+              <div
+                className="diagonal-clip bg-gray-400 rounded-lg"
+                style={{ width: '732px', height: '715px', maxWidth: '100%' }}
+                aria-hidden="true"
+              >
                 <div className="w-full h-full flex items-center justify-center text-gray-600">
                   <span className="sr-only">Team or office image placeholder</span>
                 </div>

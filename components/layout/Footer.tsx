@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Container from './Container'
 import { navigation, siteConfig } from '@/lib/data/siteContent'
 
@@ -9,27 +10,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Taglines */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-3 group mb-4">
-              {/* Logo Icon */}
-              <div className="w-10 h-10 relative flex-shrink-0">
-                <svg viewBox="0 0 60 60" className="w-full h-full" aria-hidden="true">
-                  <path
-                    d="M10 45 Q10 15, 30 10 Q50 15, 50 45"
-                    fill="none"
-                    stroke="#4A7CB5"
-                    strokeWidth="3"
-                  />
-                  <path
-                    d="M25 48 Q20 38, 25 28 Q30 20, 30 15 Q30 20, 35 28 Q40 38, 35 48 Q32 42, 30 45 Q28 42, 25 48"
-                    fill="#C84B31"
-                  />
-                  <path
-                    d="M28 48 Q26 42, 28 35 Q30 30, 30 25 Q30 30, 32 35 Q34 42, 32 48 Q31 44, 30 46 Q29 44, 28 48"
-                    fill="#E8A04C"
-                  />
-                </svg>
+            <Link href="/" className="flex items-center group mb-4">
+              {/* Logo - scaled down for footer */}
+              <div className="relative flex-shrink-0" style={{ width: '200px', height: '42px' }}>
+                <Image
+                  src="/atlantis_logo.png"
+                  alt="Atlantis Fire Protection"
+                  fill
+                  className="object-contain object-left brightness-0 invert"
+                />
               </div>
-              <span className="text-white text-lg font-bold tracking-wide">ATLANTIS FIRE PROTECTION</span>
             </Link>
             <p className="text-gray-300 mb-2">{siteConfig.description}</p>
             <p className="text-coral font-medium">{siteConfig.tagline}</p>

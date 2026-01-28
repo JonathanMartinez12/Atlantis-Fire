@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import Container from './Container'
 import Button from '../ui/Button'
@@ -10,51 +11,36 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-navy py-4 sticky top-0 z-50">
+    <header className="bg-navy sticky top-0 z-50" style={{ height: '50px' }}>
       <Container>
-        <nav className="flex items-center justify-between" aria-label="Main navigation">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group" aria-label="Atlantis Fire Protection Home">
-            {/* Logo Icon */}
-            <div className="w-12 h-12 relative flex-shrink-0">
-              <svg viewBox="0 0 60 60" className="w-full h-full" aria-hidden="true">
-                {/* Outer circle/arch */}
-                <path
-                  d="M10 45 Q10 15, 30 10 Q50 15, 50 45"
-                  fill="none"
-                  stroke="#4A7CB5"
-                  strokeWidth="3"
-                />
-                {/* Inner flame */}
-                <path
-                  d="M25 48 Q20 38, 25 28 Q30 20, 30 15 Q30 20, 35 28 Q40 38, 35 48 Q32 42, 30 45 Q28 42, 25 48"
-                  fill="#C84B31"
-                />
-                <path
-                  d="M28 48 Q26 42, 28 35 Q30 30, 30 25 Q30 30, 32 35 Q34 42, 32 48 Q31 44, 30 46 Q29 44, 28 48"
-                  fill="#E8A04C"
-                />
-              </svg>
-            </div>
-            {/* Logo Text */}
-            <div className="flex flex-col leading-tight">
-              <span className="text-white text-xl md:text-2xl font-bold tracking-wide">ATLANTIS</span>
-              <span className="text-coral text-sm md:text-base font-semibold tracking-widest">FIRE PROTECTION</span>
+        <nav className="flex items-center justify-between h-[50px]" aria-label="Main navigation">
+          {/* Logo - 322px x 66.82px */}
+          <Link href="/" className="flex items-center group" aria-label="Atlantis Fire Protection Home">
+            <div className="relative flex-shrink-0" style={{ width: '322px', height: '66.82px' }}>
+              <Image
+                src="/atlantis_logo.png"
+                alt="Atlantis Fire Protection"
+                fill
+                className="object-contain object-left"
+                priority
+              />
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Navigation - Nav links ~14pt Palatino */}
           <div className="hidden md:flex items-center gap-8">
             {navigation.main.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-white hover:text-coral transition-colors duration-200 font-medium tracking-wide"
+                className="text-white hover:text-coral transition-colors duration-200 font-serif text-[14px] tracking-wide"
+                style={{ lineHeight: '11.52px' }}
               >
                 {item.name.toUpperCase()}
               </Link>
             ))}
-            <Button href="/contact" variant="primary" size="md">
+            {/* Contact button - 158px x 34px */}
+            <Button href="/contact" variant="primary" size="header">
               CONTACT
             </Button>
           </div>

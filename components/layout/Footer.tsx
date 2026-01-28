@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center group mb-[16px]">
               <Image
-                src="/Atlantis_logo _horiz.png"
+                src="/reverse_atlantis.png"
                 alt="Atlantis Fire Protection"
                 width={322}
                 height={67}

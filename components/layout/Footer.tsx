@@ -16,7 +16,7 @@ export default function Footer() {
                 alt="Atlantis Fire Protection"
                 width={322}
                 height={67}
-                className="h-[50px] w-auto"
+                className="h-[120px] w-auto"
               />
             </Link>
             <p className="text-gray-300 mb-[8px]">{siteConfig.description}</p>

@@ -41,13 +41,13 @@ export default function AboutPage() {
       {/* Our Story Section */}
       <section className="bg-white section-padding">
         <Container>
-          <div className="max-w-4xl mx-auto animate-fade-in">
-            <p className="body-large mb-6">{aboutContent.story.paragraphs[0]}</p>
-            <p className="body-large mb-4">{aboutContent.story.paragraphs[1]}</p>
-            <ul className="mb-6 ml-6 space-y-2">
+          <div className="max-w-[896px] mx-auto animate-fade-in">
+            <p className="body-large mb-[24px]">{aboutContent.story.paragraphs[0]}</p>
+            <p className="body-large mb-[16px]">{aboutContent.story.paragraphs[1]}</p>
+            <ul className="mb-[24px] ml-[24px] space-y-[8px]">
               {aboutContent.story.listItems.map((item, index) => (
-                <li key={index} className="body-large flex items-start gap-3">
-                  <span className="w-2 h-2 bg-coral rounded-full flex-shrink-0 mt-3" aria-hidden="true" />
+                <li key={index} className="body-large flex items-start gap-[12px]">
+                  <span className="w-[8px] h-[8px] bg-coral rounded-full flex-shrink-0 mt-[12px]" aria-hidden="true" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -60,7 +60,7 @@ export default function AboutPage() {
       {/* Mission / Vision / Purpose Section */}
       <section className="bg-cream section-padding">
         <Container>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-[32px]">
             {aboutContent.missionVisionPurpose.map((item, index) => (
               <div
                 key={item.title}
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <Card className="h-full text-center">
-                  <h2 className="heading-3 text-navy mb-4">{item.title}</h2>
+                  <h2 className="heading-3 text-navy mb-[16px]">{item.title}</h2>
                   <p className="body-text">{item.text}</p>
                 </Card>
               </div>

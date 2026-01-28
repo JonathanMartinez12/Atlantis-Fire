@@ -37,9 +37,9 @@ export default function CTASection({
   return (
     <section className={`${bgColors[variant]} section-padding`}>
       <Container>
-        <div className="max-w-3xl mx-auto text-center animate-fade-in">
-          <h2 className={`heading-2 ${textColors[variant]} mb-4`}>{headline}</h2>
-          <p className={`body-large ${bodyColors[variant]} mb-8`}>{text}</p>
+        <div className="max-w-[768px] mx-auto text-center animate-fade-in">
+          <h2 className={`heading-2 ${textColors[variant]} mb-[16px]`}>{headline}</h2>
+          <p className={`body-large ${bodyColors[variant]} mb-[32px]`}>{text}</p>
           <Button
             href={buttonHref}
             variant={variant === 'navy' ? 'primary' : 'primary'}

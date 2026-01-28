@@ -55,7 +55,7 @@ export const companies: Company[] = [
 ]
 
 export const brandLogos = [
-  { name: 'Allied Fire Protection', logo: '/images/allied-logo.png' },
-  { name: 'McCoy Fire', logo: '/images/mccoy-logo.png' },
-  { name: "Keller's", logo: '/images/kellers-logo.png' },
+  { name: 'Allied Fire Protection', logo: '/allied_logo.png' },
+  { name: 'McCoy Fire', logo: '/mccoy_fire_logo.png' },
+  { name: "Keller's", logo: '/kellers_logo.png' },
 ]

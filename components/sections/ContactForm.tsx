@@ -82,10 +82,10 @@ export default function ContactForm() {
     return (
       <section className="bg-white section-padding">
         <Container>
-          <div className="max-w-2xl mx-auto text-center animate-fade-in">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+          <div className="max-w-[672px] mx-auto text-center animate-fade-in">
+            <div className="w-[64px] h-[64px] bg-green-100 rounded-full flex items-center justify-center mx-auto mb-[24px]">
               <svg
-                className="w-8 h-8 text-green-600"
+                className="w-[32px] h-[32px] text-green-600"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -98,8 +98,8 @@ export default function ContactForm() {
                 />
               </svg>
             </div>
-            <h2 className="heading-3 text-navy mb-4">Thank You!</h2>
-            <p className="body-large mb-8">
+            <h2 className="heading-3 text-navy mb-[16px]">Thank You!</h2>
+            <p className="body-large mb-[32px]">
               Your message has been sent successfully. We&apos;ll get back to you soon.
             </p>
             <Button
@@ -126,8 +126,8 @@ export default function ContactForm() {
   return (
     <section className="bg-white section-padding">
       <Container>
-        <div className="max-w-2xl mx-auto">
-          <form onSubmit={handleSubmit} className="space-y-6 animate-fade-in">
+        <div className="max-w-[672px] mx-auto">
+          <form onSubmit={handleSubmit} className="space-y-[24px] animate-fade-in">
             <Input
               label="Full Name"
               type="text"
@@ -174,7 +174,7 @@ export default function ContactForm() {
               rows={5}
             />
 
-            <div className="pt-4">
+            <div className="pt-[16px]">
               <Button
                 type="submit"
                 variant="primary"

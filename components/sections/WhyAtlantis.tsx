@@ -16,14 +16,14 @@ export default function WhyAtlantis({ label, headline, cards }: WhyAtlantisProps
   return (
     <section className="bg-white section-padding">
       <Container>
-        <div className="text-center mb-12 animate-fade-in">
+        <div className="text-center mb-[48px] animate-fade-in">
           {label && (
-            <p className="label-text text-navy mb-4">{label}</p>
+            <p className="label-text text-navy mb-[16px]">{label}</p>
           )}
           <h2 className="heading-2 text-navy">{headline}</h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
           {cards.map((card, index) => (
             <div
               key={card.title}

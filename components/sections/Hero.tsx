@@ -25,17 +25,17 @@ export default function Hero({
   return (
     <section className={`${isHome ? 'bg-cream' : 'bg-cream'} section-padding overflow-hidden`}>
       <Container>
-        <div className={`${isHome && showImage ? 'grid lg:grid-cols-2 gap-12 items-center' : ''}`}>
+        <div className={`${isHome && showImage ? 'grid lg:grid-cols-2 gap-[48px] items-center' : ''}`}>
           {/* Content */}
-          <div className={`${isHome ? 'animate-fade-in-up' : 'max-w-3xl mx-auto text-center animate-fade-in'}`}>
+          <div className={`${isHome ? 'animate-fade-in-up' : 'max-w-[768px] mx-auto text-center animate-fade-in'}`}>
             {label && (
-              <p className="label-text text-navy mb-4">{label}</p>
+              <p className="label-text text-navy mb-[16px]">{label}</p>
             )}
-            <h1 className="heading-1 text-navy mb-6">
+            <h1 className="heading-1 text-navy mb-[24px]">
               {headline}
             </h1>
             {body && (
-              <p className="body-large mb-8">
+              <p className="body-large mb-[32px]">
                 {body}
               </p>
             )}
@@ -49,7 +49,7 @@ export default function Hero({
           {/* Image Placeholder */}
           {isHome && showImage && (
             <div className="relative animate-slide-in-right hidden lg:block">
-              <div className="diagonal-clip bg-gray-400 h-[400px] lg:h-[500px] w-full rounded-lg" aria-hidden="true">
+              <div className="diagonal-clip bg-gray-400 h-[400px] lg:h-[500px] w-full rounded-[8px]" aria-hidden="true">
                 {/* Placeholder for hero image */}
                 <div className="w-full h-full flex items-center justify-center text-gray-600">
                   <span className="sr-only">Team or office image placeholder</span>

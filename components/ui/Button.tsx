@@ -28,9 +28,9 @@ export default function Button({
   }
 
   const sizes = {
-    sm: 'px-4 py-2 text-sm',
-    md: 'px-6 py-3 text-base',
-    lg: 'px-8 py-4 text-lg',
+    sm: 'px-[16px] py-[8px] text-[14px]',
+    md: 'px-[24px] py-[12px] text-[16px]',
+    lg: 'px-[32px] py-[16px] text-[18px]',
   }
 
   const buttonClasses = `${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`

@@ -15,7 +15,7 @@ export default function Card({ children, className = '', variant = 'default' }: 
   }
 
   return (
-    <div className={`rounded-lg p-6 md:p-8 ${variants[variant]} ${className}`}>
+    <div className={`rounded-[8px] p-[24px] md:p-[32px] ${variants[variant]} ${className}`}>
       {children}
     </div>
   )
@@ -30,7 +30,7 @@ interface ValueCardProps {
 export function ValueCard({ title, text, className = '' }: ValueCardProps) {
   return (
     <div className={`text-center ${className}`}>
-      <h3 className="heading-4 text-navy mb-3">{title}</h3>
+      <h3 className="heading-4 text-navy mb-[12px]">{title}</h3>
       <p className="body-text">{text}</p>
     </div>
   )
@@ -45,7 +45,7 @@ interface FeatureCardProps {
 export function FeatureCard({ title, text, className = '' }: FeatureCardProps) {
   return (
     <Card className={`h-full ${className}`}>
-      <h3 className="heading-4 text-navy mb-4">{title}</h3>
+      <h3 className="heading-4 text-navy mb-[16px]">{title}</h3>
       <p className="body-text">{text}</p>
     </Card>
   )

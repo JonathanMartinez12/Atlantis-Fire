@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Container from '../layout/Container'
 import Button from '../ui/Button'
 import Card from '../ui/Card'
@@ -16,21 +17,24 @@ interface PortfolioProps {
 }
 
 export default function Portfolio({ label, headline, intro, stats, ctaText, ctaHref }: PortfolioProps) {
+  // Double the logos for seamless infinite scroll
+  const duplicatedLogos = [...brandLogos, ...brandLogos]
+
   return (
     <section className="bg-cream section-padding">
       <Container>
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-[48px] items-start">
           {/* Content */}
           <div className="animate-fade-in-up">
             {label && (
-              <p className="label-text text-navy mb-4">{label}</p>
+              <p className="label-text text-navy mb-[16px]">{label}</p>
             )}
-            <h2 className="heading-2 text-navy mb-6">{headline}</h2>
-            <p className="body-large mb-8">{intro}</p>
+            <h2 className="heading-2 text-navy mb-[24px]">{headline}</h2>
+            <p className="body-large mb-[32px]">{intro}</p>
 
             {/* Stats Box */}
-            <Card className="mb-8">
-              <h3 className="heading-4 text-navy mb-3">{stats.title}</h3>
+            <Card className="mb-[32px]">
+              <h3 className="heading-4 text-navy mb-[12px]">{stats.title}</h3>
               <p className="body-text">{stats.text}</p>
             </Card>
 
@@ -39,22 +43,29 @@ export default function Portfolio({ label, headline, intro, stats, ctaText, ctaH
             </Button>
           </div>
 
-          {/* Logo Grid */}
+          {/* Logo Carousel */}
           <div className="animate-slide-in-right">
-            <div className="bg-white rounded-lg p-8 shadow-sm">
-              <p className="label-text text-navy mb-6">OUR BRANDS</p>
-              <div className="grid grid-cols-3 gap-6 items-center">
-                {brandLogos.map((brand) => (
-                  <div
-                    key={brand.name}
-                    className="flex items-center justify-center p-4 h-24"
-                  >
-                    {/* Logo placeholder */}
-                    <div className="w-full h-full bg-gray-100 rounded flex items-center justify-center">
-                      <span className="text-xs text-gray-500 text-center px-2">{brand.name}</span>
+            <div className="bg-white rounded-[8px] p-[32px] shadow-sm overflow-hidden">
+              <p className="label-text text-navy mb-[24px]">OUR BRANDS</p>
+
+              {/* Infinite Scroll Container */}
+              <div className="relative overflow-hidden">
+                <div className="flex animate-scroll-infinite">
+                  {duplicatedLogos.map((brand, index) => (
+                    <div
+                      key={`${brand.name}-${index}`}
+                      className="flex-shrink-0 flex items-center justify-center px-[24px] h-[96px] min-w-[200px]"
+                    >
+                      <Image
+                        src={brand.logo}
+                        alt={brand.name}
+                        width={160}
+                        height={80}
+                        className="max-h-[80px] w-auto object-contain"
+                      />
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </div>
           </div>

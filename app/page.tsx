@@ -18,9 +18,6 @@ export default function Home() {
             style={{ minHeight: '715px' }}
           >
             <div className="px-[40px] py-[60px] lg:pl-[80px] lg:pr-[40px] max-w-[708px] ml-auto">
-              {/* Decorative line - 230.67px x 28px */}
-              <div className="w-[230.67px] h-[3px] bg-coral mb-[20px]" />
-
               {/* Label - ABOUT ATLANTIS - Avenir Bold 14pt */}
               <p className="label-text text-navy mb-[16px]">ABOUT ATLANTIS</p>
 
@@ -132,9 +129,6 @@ export default function Home() {
 
           {/* Right Content */}
           <div className="flex-1">
-            {/* Decorative line - 230.67px x 28px */}
-            <div className="w-[230.67px] h-[3px] bg-coral mb-[20px]" />
-
             {/* Label - OUR MISSION - Avenir Bold 14pt */}
             <p className="label-text text-navy mb-[16px]">OUR MISSION</p>
 
@@ -250,6 +244,16 @@ export default function Home() {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+      {/* ============================================================
+          SECTION 5: CASE STUDIES (future)
+          ============================================================ */}
+      <section className="w-full bg-white py-[64px] md:py-[96px]">
+        <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">
+          <h2 className="heading-2 text-navy">
+            Case Studies <span className="text-gray-400 font-normal italic text-[24px]">(future)</span>
+          </h2>
         </div>
       </section>
     </>

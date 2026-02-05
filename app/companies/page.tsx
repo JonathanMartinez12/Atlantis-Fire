@@ -171,17 +171,17 @@ export default function CompaniesPage() {
 
             {/* Company Name */}
             <h2 className="heading-palatino-48 text-navy mb-[24px]">
-              Keller's
+              Keller&apos;s
             </h2>
 
             {/* Tagline */}
             <p className="body-palatino-18 text-black font-semibold mb-[24px]">
-              Industry-leading expertise in the world's most complex fire alarm environments.
+              Industry-leading expertise in the world&apos;s most complex fire alarm environments.
             </p>
 
             {/* Body Text */}
             <p className="body-palatino-18 text-black mb-[32px]">
-              Established in 1973, Keller's is known for its unmatched strength in fire alarm engineering, design, and service. With multiple NICET IV-certified professionals and more than 50 years of history, Keller's is trusted by nuclear facilities, government agencies, industrial campuses, and other highly specialized environments. Their longevity, technical excellence, and long-tenured team make Keller's one of the most respected fire alarm firms in the industry, serving clients locally, nationally, and globally.
+              Established in 1973, Keller&apos;s is known for its unmatched strength in fire alarm engineering, design, and service. With multiple NICET IV-certified professionals and more than 50 years of history, Keller&apos;s is trusted by nuclear facilities, government agencies, industrial campuses, and other highly specialized environments. Their longevity, technical excellence, and long-tenured team make Keller&apos;s one of the most respected fire alarm firms in the industry, serving clients locally, nationally, and globally.
             </p>
 
             {/* Quote */}

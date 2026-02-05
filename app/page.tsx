@@ -26,7 +26,7 @@ export default function Home() {
                 className="heading-2 text-navy mb-[24px]"
                 style={{ maxWidth: '391.87px' }}
               >
-                Headline Itam quam aute pro inctaqu ibust.
+                Where Founder-Built Companies Grow Stronger.
               </h2>
 
               {/* Body text - 391.87px x 80px */}
@@ -34,9 +34,7 @@ export default function Home() {
                 className="body-text mb-[32px]"
                 style={{ maxWidth: '391.87px' }}
               >
-                Itam quam aute pro inctaqu ibust, quia sed escima sitata
-                quodi doloresequi quaectum ut intem corrovi dendest,
-                occabor raeribus eos et porest apiet aut doluptibus
+                Atlantis Fire is a family-owned holding company committed to advancing the fire protection industry through strategic investment, world-class operational support and a people-first philosophy. We bring together regionally strong fire protection companies, preserving their local identity while empowering them with resources, expertise and long-term stability.
               </p>
 
               {/* OUR STORY Button - 158px x 34px */}
@@ -114,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* ============================================================
-          SECTION 3: OUR MISSION
+          SECTION 3: WHO WE ARE
           Image on left (415.67px x 515px) + Content on right
           ============================================================ */}
       <section className="w-full bg-white">
@@ -129,37 +127,95 @@ export default function Home() {
 
           {/* Right Content */}
           <div className="flex-1">
-            {/* Label - OUR MISSION - Avenir Bold 14pt */}
-            <p className="label-text text-navy mb-[16px]">OUR MISSION</p>
-
-            {/* Headline - 391.67px x 184.08px - Avenir Demi Bold */}
+            {/* Headline - Avenir Demi Bold */}
             <h2
               className="heading-2 text-navy mb-[24px]"
-              style={{ maxWidth: '391.67px' }}
+              style={{ maxWidth: '450px' }}
             >
-              Headline Itam quam aute pro inctaqu ibust.
+              Who We Are
             </h2>
 
-            {/* Body text - 391.67px x 80px */}
+            {/* Body text */}
             <p
               className="body-text mb-[32px]"
-              style={{ maxWidth: '391.67px' }}
+              style={{ maxWidth: '450px' }}
             >
-              Itam quam aute pro inctaqu ibust, quia sed escima sitata
-              quodi doloresequi quaectum ut intem corrovi dendest,
-              occabor raeribus eos et porest apiet aut doluptibus
+              Atlantis Fire was founded to give fire protection business owners a founder-friendly option. We believe in protecting our companies&apos; legacies, valuing their people and ensuring the long-term success of their customers and communities. We maintain the strength, independence, and reputation of each local brand while providing the structure and support of a fully integrated fire protection platform.
             </p>
 
-            {/* WHY ATLANTIS Button - 158px x 34px */}
+            {/* LEARN MORE Button - 158px x 34px */}
             <Button href="/about" variant="primary" size="md">
-              WHY ATLANTIS
+              LEARN MORE
             </Button>
           </div>
         </div>
       </section>
 
       {/* ============================================================
-          SECTION 4: INVESTMENT APPROACH
+          SECTION 4: WHY ATLANTIS
+          Cream background with navy top bar
+          4 columns with titles and descriptions
+          ============================================================ */}
+      <section className="w-full">
+        {/* Navy top bar */}
+        <div className="w-full h-[20px] bg-navy" />
+
+        {/* Cream content area */}
+        <div className="w-full bg-cream py-[80px]">
+          <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">
+            {/* Section Title - Serif italic style */}
+            <h2 className="font-serif italic text-navy text-[48px] text-center mb-[60px]">
+              Why Atlantis
+            </h2>
+
+            {/* 4 Columns */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[40px]">
+              {/* Column 1 */}
+              <div className="text-center">
+                <h3 className="font-avenir font-semibold text-navy text-[18px] mb-[12px]">
+                  Family-Owned &<br />Founder-Friendly
+                </h3>
+                <p className="body-text text-center">
+                  We are not private equity. We invest for longevity rather than short-term gains.
+                </p>
+              </div>
+
+              {/* Column 2 */}
+              <div className="text-center">
+                <h3 className="font-avenir font-semibold text-navy text-[18px] mb-[12px]">
+                  People at<br />the Center
+                </h3>
+                <p className="body-text text-center">
+                  We believe strong companies begin with strong teams.
+                </p>
+              </div>
+
+              {/* Column 3 */}
+              <div className="text-center">
+                <h3 className="font-avenir font-semibold text-navy text-[18px] mb-[12px]">
+                  Shared Expertise.<br />Local Identity.
+                </h3>
+                <p className="body-text text-center">
+                  We support each company&apos;s growth without diluting their legacy.
+                </p>
+              </div>
+
+              {/* Column 4 */}
+              <div className="text-center">
+                <h3 className="font-avenir font-semibold text-navy text-[18px] mb-[12px]">
+                  Operational Scale<br />with Local Service
+                </h3>
+                <p className="body-text text-center">
+                  Each company benefits from shared systems, best practices, and strategic guidance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================
+          SECTION 5: INVESTMENT APPROACH
           Cream background - 1440px x 784px
           Large headline + 2 cards side by side
           ============================================================ */}
@@ -246,8 +302,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* ============================================================
-          SECTION 5: CASE STUDIES (future)
+          SECTION 6: CASE STUDIES (future)
           ============================================================ */}
       <section className="w-full bg-white py-[64px] md:py-[96px]">
         <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">

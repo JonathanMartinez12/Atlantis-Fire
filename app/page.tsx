@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Hero from '@/components/sections/Hero'
 import WhyAtlantis from '@/components/sections/WhyAtlantis'
 import Portfolio from '@/components/sections/Portfolio'
@@ -28,17 +29,23 @@ export default function Home() {
               <p className="label-text text-navy mb-4">{homeContent.whoWeAre.label}</p>
               <h2 className="heading-2 text-navy mb-6">{homeContent.whoWeAre.headline}</h2>
               {homeContent.whoWeAre.body.map((paragraph, index) => (
-                <p key={index} className="body-large mb-4">{paragraph}</p>
+                <p key={index} className="body-large mb-8">{paragraph}</p>
               ))}
               <Button href={homeContent.whoWeAre.link.href} variant="outline" size="md" className="mt-4">
                 {homeContent.whoWeAre.link.text}
               </Button>
             </div>
 
-            {/* Image Placeholder */}
+            {/* Image */}
             <div className="animate-slide-in-right">
-              <div className="diagonal-clip bg-gray-400 h-[350px] lg:h-[450px] w-full rounded-lg flex items-center justify-center">
-                <span className="text-gray-600 sr-only">Team image placeholder</span>
+              <div className="diagonal-clip rounded-lg overflow-hidden h-[350px] lg:h-[450px] w-full">
+                <Image
+                  src="/pictureone.jpg"
+                  alt="Atlantis Fire Protection team"
+                  width={600}
+                  height={450}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -56,10 +63,16 @@ export default function Home() {
       <section className="bg-cream section-padding">
         <Container>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Image Placeholder */}
+            {/* Image */}
             <div className="animate-fade-in-up order-2 lg:order-1">
-              <div className="diagonal-clip-reverse bg-gray-400 h-[350px] lg:h-[450px] w-full rounded-lg flex items-center justify-center">
-                <span className="text-gray-600 sr-only">Mission image placeholder</span>
+              <div className="diagonal-clip-reverse rounded-lg overflow-hidden h-[350px] lg:h-[450px] w-full">
+                <Image
+                  src="/picturetwo.jpg"
+                  alt="Our mission at Atlantis Fire Protection"
+                  width={600}
+                  height={450}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
@@ -108,8 +121,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {/* Our Investor Profile */}
             <div className="animate-fade-in-up">
-              <div className="bg-gray-400 h-[250px] w-full rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-600 sr-only">Investor profile image</span>
+              <div className="rounded-lg overflow-hidden h-[250px] w-full mb-6">
+                <Image
+                  src="/picturethree.jpg"
+                  alt="Our investor profile"
+                  width={500}
+                  height={250}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="heading-4 text-navy mb-4 text-center">OUR INVESTOR PROFILE</h3>
               <p className="body-text text-center mb-6">
@@ -125,8 +144,14 @@ export default function Home() {
 
             {/* Our Investment Process */}
             <div className="animate-fade-in-up" style={{ animationDelay: '100ms' }}>
-              <div className="bg-gray-400 h-[250px] w-full rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-gray-600 sr-only">Investment process image</span>
+              <div className="rounded-lg overflow-hidden h-[250px] w-full mb-6">
+                <Image
+                  src="/picturefour.jpg"
+                  alt="Our investment process"
+                  width={500}
+                  height={250}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="heading-4 text-navy mb-4 text-center">OUR INVESTMENT PROCESS</h3>
               <p className="body-text text-center mb-6">

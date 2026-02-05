@@ -24,7 +24,7 @@ export const companies: Company[] = [
       quote: 'Over the last several years, I built Allied Fire Protection into one of the fastest-growing fire protection companies serving Alabama and the surrounding area. After hearing Patrick and the Atlantis Fire Protection team\'s vision for deeply involving operators, treating them as partners, and celebrating the individual brands, I knew I wanted to join the Atlantis Fire Protection platform. I look forward to working with Stella Black, Vince McCoy and the other operators at Atlantis Fire Protection to build one of the best-run, fastest growing platforms in the fire protection industry.',
       attribution: '— Tony Thomas, Chief Executive Officer, Allied Fire Protection',
     },
-    logo: '/images/allied-logo.png',
+    logo: '/allied_logo.png',
   },
   {
     id: 'mccoy',
@@ -37,7 +37,7 @@ export const companies: Company[] = [
       quote: 'Over the 20-plus years in business, we have had our share of highs and lows in the industry, but with our team\'s hard work and dedication, we have managed to build one of the fastest-growing fire protection companies in our market. Having put so much of myself into McCoy Fire and Safety, it was a difficult decision to consider selling and partnering with anyone. However, when Patrick and Atlantis Fire described their approach, I saw how unique it would be in the industry. I did not want to miss the opportunity to be one of the first companies and owner-operators on the platform. I am extremely excited to see what the future holds for Atlantis Fire.',
       attribution: '— Vince McCoy, President, McCoy Fire And Safety',
     },
-    logo: '/images/mccoy-logo.png',
+    logo: '/mccoy_fire_logo.png',
   },
   {
     id: 'kellers',
@@ -50,12 +50,12 @@ export const companies: Company[] = [
       quote: 'My family started Keller\'s 50 years ago, and over that time, we built a brand and company I care deeply about. I constantly get approached to sell our business to financial firms, and it never felt like the right fit. I\'ve known Patrick Lynch for nearly a decade, and the vision for Atlantis Fire and how they want the operators deeply involved, treat them as partners, and celebrate the individual brands was what I wanted for the next chapter of Keller\'s. I couldn\'t be more excited for Keller\'s to join the Atlantis Fire platform.',
       attribution: "— Stella Black, President, Keller's Inc.",
     },
-    logo: '/images/kellers-logo.png',
+    logo: '/kellers_logo.png',
   },
 ]
 
 export const brandLogos = [
-  { name: 'Allied Fire Protection', logo: '/images/allied-logo.png' },
-  { name: 'McCoy Fire', logo: '/images/mccoy-logo.png' },
-  { name: "Keller's", logo: '/images/kellers-logo.png' },
+  { name: 'Allied Fire Protection', logo: '/allied_logo.png' },
+  { name: 'McCoy Fire', logo: '/mccoy_fire_logo.png' },
+  { name: "Keller's", logo: '/kellers_logo.png' },
 ]

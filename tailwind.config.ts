@@ -46,10 +46,15 @@ const config: Config = {
         accent: {
           blue: '#4A7CB5',
         },
+        'light-blue': {
+          DEFAULT: '#e5eef8',
+        },
       },
       fontFamily: {
         serif: ['Playfair Display', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
+        avenir: ['Avenir', 'Avenir Next', 'Helvetica Neue', 'sans-serif'],
+        palatino: ['Palatino Linotype', 'Palatino', 'Book Antiqua', 'Georgia', 'serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

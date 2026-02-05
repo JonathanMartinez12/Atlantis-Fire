@@ -327,16 +327,18 @@ export default function Home() {
       </section>
 
       {/* ============================================================
-          SECTION: GRADIENT IMAGE PLACEHOLDER
-          Orange/gradient decorative image section
-          Design specs: 1440px x 431.55px
+          SECTION: ORANGE DECORATIVE IMAGE
+          Orange decorative image section
+          Design specs: Full width x shorter height
           ============================================================ */}
       <section className="w-full">
-        <div
-          className="w-full bg-gray-400 flex items-center justify-center"
-          style={{ height: '431.55px' }}
-        >
-          <span className="text-gray-600 text-[24px] font-avenir">Gradient Image Placeholder</span>
+        <div className="w-full relative" style={{ height: '180px' }}>
+          <Image
+            src="/orangepicture.jpg"
+            alt="Decorative background"
+            fill
+            className="object-cover"
+          />
         </div>
       </section>
 

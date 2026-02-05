@@ -6,33 +6,32 @@ export default function Home() {
     <>
       {/* ============================================================
           SECTION 1: ABOUT ATLANTIS
-          Left cream content (708px) + Right gray image (732px)
-          Total height: 715px at 1440px viewport
-          Ratio: 49.17% / 50.83%
+          Cream content on left + image on right
+          Image extends to edge of screen
           ============================================================ */}
       <section className="w-full">
-        <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row">
-          {/* Left Content - Cream Background - 708/1440 = 49.17% */}
+        <div className="flex flex-col lg:flex-row">
+          {/* Left Content - Cream Background - approximately 60% */}
           <div
-            className="bg-cream w-full lg:w-[49.17%] flex items-center"
-            style={{ minHeight: '715px' }}
+            className="bg-cream w-full lg:w-[60%] flex items-center"
+            style={{ minHeight: '600px' }}
           >
-            <div className="px-[40px] py-[60px] lg:pl-[80px] lg:pr-[40px] max-w-[708px] ml-auto">
+            <div className="px-[40px] py-[60px] lg:pl-[80px] lg:pr-[60px] max-w-[700px] ml-auto lg:ml-[80px]">
               {/* Label - ABOUT ATLANTIS - Avenir Bold 14pt */}
               <p className="label-text text-navy mb-[16px]">ABOUT ATLANTIS</p>
 
-              {/* Headline - 391.87px x 184px - Avenir Demi Bold */}
+              {/* Headline - Serif font (Playfair Display) */}
               <h2
-                className="heading-2 text-navy mb-[24px]"
-                style={{ maxWidth: '391.87px' }}
+                className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]"
+                style={{ maxWidth: '500px' }}
               >
                 Where Founder-Built Companies Grow Stronger.
               </h2>
 
-              {/* Body text - 391.87px x 80px */}
+              {/* Body text */}
               <p
                 className="body-text mb-[32px]"
-                style={{ maxWidth: '391.87px' }}
+                style={{ maxWidth: '500px' }}
               >
                 Atlantis Fire is a family-owned holding company committed to advancing the fire protection industry through strategic investment, world-class operational support and a people-first philosophy. We bring together regionally strong fire protection companies, preserving their local identity while empowering them with resources, expertise and long-term stability.
               </p>
@@ -44,10 +43,10 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right Image Placeholder - Gray - 732/1440 = 50.83% */}
+          {/* Right Image Placeholder - extends to edge */}
           <div
-            className="bg-gray-400 w-full lg:w-[50.83%] flex items-center justify-center"
-            style={{ minHeight: '715px' }}
+            className="bg-gray-400 w-full lg:w-[40%] flex items-center justify-center"
+            style={{ minHeight: '600px' }}
           >
             <span className="text-gray-600 text-[48px] font-avenir font-semibold">1</span>
           </div>
@@ -55,61 +54,60 @@ export default function Home() {
       </section>
 
       {/* ============================================================
-          SECTION 2: OUR BRANDS
-          Light blue background - 1440px x 168px
-          Static row of logos
+          SECTION 2: OUR COMPANIES
+          Cream background with label, then light blue bar with logos,
+          then navy bar at bottom
           ============================================================ */}
+      {/* Cream area with OUR COMPANIES label */}
+      <section className="w-full bg-cream py-[40px]">
+        <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">
+          <h2 className="label-text text-navy">OUR COMPANIES</h2>
+        </div>
+      </section>
+
+      {/* Light blue bar with logos */}
       <section
         className="w-full"
         style={{ backgroundColor: '#dce8f3' }}
       >
-        <div
-          className="max-w-[1440px] mx-auto h-[168px] flex items-center px-[40px] lg:px-[80px]"
-        >
-          {/* OUR BRANDS label - Avenir Demi Bold 28pt - 230.67px x 28px */}
-          <div className="flex-shrink-0 mr-[60px]">
-            <h2
-              className="brand-heading"
-              style={{ width: '230.67px' }}
-            >
-              OUR BRANDS
-            </h2>
-          </div>
-
-          {/* Logo Row */}
-          <div className="flex items-center justify-center flex-1 gap-[80px]">
-            {/* Allied FireProtection - 134.27px x 136.90px */}
+        <div className="w-full py-[40px]">
+          {/* Logo Row - centered and evenly spaced */}
+          <div className="flex items-center justify-center gap-[60px] md:gap-[120px] lg:gap-[200px] px-[40px]">
+            {/* Allied FireProtection */}
             <Image
               src="/allied_logo.png"
               alt="Allied Fire Protection"
-              width={134}
-              height={137}
-              className="object-contain"
-              style={{ width: '134.27px', height: '136.90px' }}
+              width={150}
+              height={150}
+              className="object-contain h-[100px] md:h-[130px] w-auto"
             />
 
-            {/* McCoy Fire - 137.63px x 137.63px */}
+            {/* McCoy Fire */}
             <Image
               src="/mccoy_fire_logo.png"
               alt="McCoy Fire"
-              width={138}
-              height={138}
-              className="object-contain"
-              style={{ width: '137.63px', height: '137.63px' }}
+              width={150}
+              height={150}
+              className="object-contain h-[100px] md:h-[130px] w-auto"
             />
 
-            {/* Keller's LLC - 196.11px x 108.24px */}
+            {/* Keller's LLC */}
             <Image
               src="/kellers_logo.png"
               alt="Keller&apos;s LLC"
-              width={196}
-              height={108}
-              className="object-contain"
-              style={{ width: '196.11px', height: '108.24px' }}
+              width={200}
+              height={110}
+              className="object-contain h-[80px] md:h-[100px] w-auto"
             />
           </div>
         </div>
       </section>
+
+      {/* Navy bar at bottom */}
+      <div className="w-full h-[20px] bg-navy" />
+
+      {/* Cream section continues */}
+      <section className="w-full bg-cream py-[40px]" />
 
       {/* ============================================================
           SECTION 3: WHO WE ARE
@@ -153,13 +151,13 @@ export default function Home() {
 
       {/* ============================================================
           SECTION 4: WHY ATLANTIS
-          White box inside cream background
+          Full-width white box (edge to edge) inside cream background
           4 columns with titles and descriptions
           ============================================================ */}
-      <section className="w-full bg-cream py-[80px]">
-        <div className="max-w-[1200px] mx-auto px-[40px] lg:px-[80px]">
-          {/* White box container */}
-          <div className="bg-white py-[60px] px-[40px] lg:px-[60px]">
+      <section className="w-full bg-cream py-[40px]">
+        {/* Full-width white box */}
+        <div className="w-full bg-white py-[60px] px-[40px] lg:px-[80px]">
+          <div className="max-w-[1200px] mx-auto">
             {/* Section Title - Serif italic style */}
             <h2 className="font-serif italic text-navy text-[48px] text-center mb-[60px]">
               Why Atlantis

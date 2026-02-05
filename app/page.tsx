@@ -43,9 +43,12 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Thin vertical white gap */}
+          <div className="hidden lg:block w-[4px] bg-white" style={{ minHeight: '600px' }} />
+
           {/* Right Image Placeholder - extends to edge */}
           <div
-            className="bg-gray-400 w-full lg:w-[40%] flex items-center justify-center"
+            className="bg-gray-400 w-full lg:flex-1 flex items-center justify-center"
             style={{ minHeight: '600px' }}
           >
             <span className="text-gray-600 text-[48px] font-avenir font-semibold">1</span>
@@ -55,11 +58,10 @@ export default function Home() {
 
       {/* ============================================================
           SECTION 2: OUR COMPANIES
-          Cream background with label, then light blue bar with logos,
-          then navy bar at bottom
+          White box with label, then light blue bar with logos
           ============================================================ */}
-      {/* Cream area with OUR COMPANIES label */}
-      <section className="w-full bg-cream py-[40px]">
+      {/* White area with OUR COMPANIES label */}
+      <section className="w-full bg-white py-[30px]">
         <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">
           <h2 className="label-text text-navy">OUR COMPANIES</h2>
         </div>
@@ -103,11 +105,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Navy bar at bottom */}
-      <div className="w-full h-[20px] bg-navy" />
-
-      {/* Cream section continues */}
-      <section className="w-full bg-cream py-[40px]" />
+      {/* Cream transition */}
+      <section className="w-full bg-cream py-[30px]" />
 
       {/* ============================================================
           SECTION 3: WHO WE ARE

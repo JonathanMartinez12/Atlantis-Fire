@@ -71,7 +71,7 @@ export default function CompaniesPage() {
             {/* Quote */}
             <div className="bg-[#E5EEF8] p-[32px] mb-[32px]">
               <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
-                "Over the last several years, I built Allied Fire Protection into one of the fastest-growing, full-service fire protection service serving Alabama and the surrounding area. After hearing Patrick and the Atlantis Fire Protection team's vision for deeply investing operators, treating them as partners, and celebrating the individual brands, I knew I wanted to join the Atlantis Fire Protection platform. I look forward to working with Stella Black, Vince McCoy and the other operators at Atlantis Fire Protection to build one of the best-run, fastest growing platforms in the fire protection industry."
+                &quot;Over the last several years, I built Allied Fire Protection into one of the fastest-growing, full-service fire protection service serving Alabama and the surrounding area. After hearing Patrick and the Atlantis Fire Protection team&apos;s vision for deeply investing operators, treating them as partners, and celebrating the individual brands, I knew I wanted to join the Atlantis Fire Protection platform. I look forward to working with Stella Black, Vince McCoy and the other operators at Atlantis Fire Protection to build one of the best-run, fastest growing platforms in the fire protection industry.&quot;
               </p>
               <p className="font-avenir font-semibold text-navy text-[14px]">
                 - Tony Thomas, Chief Executive Officer, Allied Fire Protection
@@ -129,7 +129,7 @@ export default function CompaniesPage() {
             {/* Quote */}
             <div className="bg-cream p-[32px] mb-[32px]">
               <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
-                "Over the 20-plus years in business, we have had our share of highs and lows in the industry, but with our team's hard work and dedication, we have managed to build one of the fastest-growing fire protection companies in our market. Having put so much of myself into McCoy Fire and Safety, it was a difficult decision to consider selling and partnering with anyone. However, when Patrick described their approach, I saw how unique it would be in the industry. I did not want to miss the opportunity to be one of the first companies and owner-operators on the platform. I am extremely excited to see what the future holds for Atlantis Fire."
+                &quot;Over the 20-plus years in business, we have had our share of highs and lows in the industry, but with our team&apos;s hard work and dedication, we have managed to build one of the fastest-growing fire protection companies in our market. Having put so much of myself into McCoy Fire and Safety, it was a difficult decision to consider selling and partnering with anyone. However, when Patrick described their approach, I saw how unique it would be in the industry. I did not want to miss the opportunity to be one of the first companies and owner-operators on the platform. I am extremely excited to see what the future holds for Atlantis Fire.&quot;
               </p>
               <p className="font-avenir font-semibold text-navy text-[14px]">
                 - Vince McCoy, President, McCoy Fire And Safety
@@ -187,10 +187,10 @@ export default function CompaniesPage() {
             {/* Quote */}
             <div className="bg-[#E5EEF8] p-[32px] mb-[32px]">
               <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
-                "My family started Keller's 50 years ago, and ever since then, we built our reputation. I care deeply about. I constantly get approached to sell our business to financial firms, and it never feels like the right fit. I've known Patrick Lynch for nearly a decade, and the vision for Atlantis Fire and how they want the operators deeply involved, treat them as partners, and celebrate the individual brands was what I wanted for the next chapter of Keller's. I couldn't be more excited for Keller's to join the Atlantis Fire platform."
+                &quot;My family started Keller&apos;s 50 years ago, and ever since then, we built our reputation. I care deeply about. I constantly get approached to sell our business to financial firms, and it never feels like the right fit. I&apos;ve known Patrick Lynch for nearly a decade, and the vision for Atlantis Fire and how they want the operators deeply involved, treat them as partners, and celebrate the individual brands was what I wanted for the next chapter of Keller&apos;s. I couldn&apos;t be more excited for Keller&apos;s to join the Atlantis Fire platform.&quot;
               </p>
               <p className="font-avenir font-semibold text-navy text-[14px]">
-                - Stella Black, President, Keller's Inc.
+                - Stella Black, President, Keller&apos;s Inc.
               </p>
             </div>
 

@@ -52,7 +52,7 @@ export default function Home() {
             style={{ minHeight: '600px' }}
           >
             <Image
-              src="/image-1.jpg"
+              src="/pictureone.jpg"
               alt="About Atlantis"
               fill
               className="object-cover"
@@ -130,7 +130,7 @@ export default function Home() {
             style={{ width: '521.67px', height: '401.10px' }}
           >
             <Image
-              src="/image-2.jpg"
+              src="/picturetwo.jpg"
               alt="Fire Protection Equipment"
               fill
               className="object-cover"
@@ -238,7 +238,7 @@ export default function Home() {
                 style={{ height: '280px' }}
               >
                 <Image
-                  src="/image-3.jpg"
+                  src="/picturethree.jpg"
                   alt="Our Portfolio"
                   fill
                   className="object-cover"
@@ -264,7 +264,7 @@ export default function Home() {
                 style={{ height: '280px' }}
               >
                 <Image
-                  src="/image-4.jpg"
+                  src="/picturefour.jpg"
                   alt="Total Combined Expertise"
                   fill
                   className="object-cover"
@@ -299,6 +299,44 @@ export default function Home() {
               - Tony Thomas, Chief Executive Officer, Allied Fire Protection
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* ============================================================
+          SECTION: READY TO CONNECT
+          White section with centered text and CTA button
+          Design specs: 1063.33px x 44.81px content area, full width section
+          ============================================================ */}
+      <section className="w-full bg-white py-[80px]">
+        <div className="max-w-[1063px] mx-auto px-[40px] text-center">
+          {/* Heading - Palatino 48pt */}
+          <h2 className="heading-palatino-48 mb-[24px]">
+            Ready to Connect?
+          </h2>
+
+          {/* Body text - Palatino 18pt */}
+          <p className="body-palatino-18 mb-[40px]">
+            Whether you&apos;re exploring a partnership or want to learn more about our portfolio, we&apos;re here to help.
+          </p>
+
+          {/* CONTACT Button */}
+          <Button href="/contact" variant="primary" size="md">
+            CONTACT
+          </Button>
+        </div>
+      </section>
+
+      {/* ============================================================
+          SECTION: GRADIENT IMAGE PLACEHOLDER
+          Orange/gradient decorative image section
+          Design specs: 1440px x 431.55px
+          ============================================================ */}
+      <section className="w-full">
+        <div
+          className="w-full bg-gray-400 flex items-center justify-center"
+          style={{ height: '431.55px' }}
+        >
+          <span className="text-gray-600 text-[24px] font-avenir">Gradient Image Placeholder</span>
         </div>
       </section>
 

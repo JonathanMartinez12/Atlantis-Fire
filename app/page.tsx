@@ -46,12 +46,17 @@ export default function Home() {
           {/* Thin vertical white gap */}
           <div className="hidden lg:block w-[4px] bg-white" style={{ minHeight: '600px' }} />
 
-          {/* Right Image Placeholder - extends to edge */}
+          {/* Right Image - extends to edge */}
           <div
-            className="bg-gray-400 w-full lg:flex-1 flex items-center justify-center"
+            className="w-full lg:flex-1 relative"
             style={{ minHeight: '600px' }}
           >
-            <span className="text-gray-600 text-[48px] font-avenir font-semibold">1</span>
+            <Image
+              src="/image-1.jpg"
+              alt="About Atlantis"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
       </section>
@@ -120,12 +125,16 @@ export default function Home() {
       <section className="w-full bg-cream">
         <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center py-[55px] px-[40px] lg:px-[108.33px]">
           {/* Left Image - 521.67px x 401.10px */}
-          {/* TODO: Add fire extinguisher image (istockphoto-2181672281-1024x1024.jpg) to public folder */}
           <div
-            className="flex-shrink-0 bg-gray-400 flex items-center justify-center mb-[40px] lg:mb-0 lg:mr-[80px]"
+            className="flex-shrink-0 relative mb-[40px] lg:mb-0 lg:mr-[80px]"
             style={{ width: '521.67px', height: '401.10px' }}
           >
-            <span className="text-gray-600 text-[18px] font-avenir">Fire Equipment Image</span>
+            <Image
+              src="/image-2.jpg"
+              alt="Fire Protection Equipment"
+              fill
+              className="object-cover"
+            />
           </div>
 
           {/* Right Content - 521.67px x 224.81px text area */}
@@ -136,8 +145,12 @@ export default function Home() {
             </h2>
 
             {/* Body text - Palatino 18pt */}
+            <p className="body-palatino-18 mb-[24px]">
+              Atlantis Fire was founded to give fire protection business owners a founder-friendly option. We believe in protecting our companies&apos; legacies, valuing their people and ensuring the long-term success of their customers and communities.
+            </p>
+
             <p className="body-palatino-18 mb-[32px]">
-              Atlantis Fire was founded to give fire protection business owners a founder-friendly option. We believe in protecting our companies&apos; legacies, valuing their people and ensuring the long-term success of their customers and communities. We maintain the strength, independence, and reputation of each local brand while providing the structure and support of a fully integrated fire protection platform.
+              We maintain the strength, independence, and reputation of each local brand while providing the structure and support of a fully integrated fire protection platform.
             </p>
 
             {/* LEARN MORE Button - 182.50px x 40px */}
@@ -219,12 +232,17 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-[24px] justify-center mb-[48px]">
             {/* Card 1 - OUR PORTFOLIO */}
             <div className="flex flex-col items-center" style={{ maxWidth: '500px' }}>
-              {/* Image Placeholder */}
+              {/* Image */}
               <div
-                className="w-full bg-gray-400 flex items-center justify-center mb-[24px]"
+                className="w-full relative mb-[24px]"
                 style={{ height: '280px' }}
               >
-                <span className="text-gray-600 text-[48px] font-avenir font-semibold">3</span>
+                <Image
+                  src="/image-3.jpg"
+                  alt="Our Portfolio"
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               {/* Card Title - Navy uppercase */}
@@ -240,12 +258,17 @@ export default function Home() {
 
             {/* Card 2 - TOTAL COMBINED EXPERTISE */}
             <div className="flex flex-col items-center" style={{ maxWidth: '500px' }}>
-              {/* Image Placeholder */}
+              {/* Image */}
               <div
-                className="w-full bg-gray-400 flex items-center justify-center mb-[24px]"
+                className="w-full relative mb-[24px]"
                 style={{ height: '280px' }}
               >
-                <span className="text-gray-600 text-[48px] font-avenir font-semibold">4</span>
+                <Image
+                  src="/image-4.jpg"
+                  alt="Total Combined Expertise"
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               {/* Card Title - Navy uppercase */}

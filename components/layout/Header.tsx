@@ -17,7 +17,7 @@ export default function Header() {
       {/* Navigation Bar - white background */}
       <div className="w-full bg-white">
         <div className="max-w-[1440px] mx-auto px-[32px]">
-          <nav className="flex items-center justify-between py-[12px]" aria-label="Main navigation">
+          <nav className="flex items-center py-[12px]" aria-label="Main navigation">
             {/* Logo - 322px x 66.82px */}
             <Link href="/" className="flex items-center" aria-label="Atlantis Fire Protection Home">
               <Image
@@ -30,8 +30,8 @@ export default function Header() {
               />
             </Link>
 
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center gap-[40px]">
+            {/* Desktop Navigation - Centered */}
+            <div className="hidden md:flex items-center gap-[40px] flex-1 justify-center">
               {navigation.main.map((item) => (
                 <Link
                   key={item.name}

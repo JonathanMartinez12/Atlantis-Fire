@@ -44,7 +44,7 @@ export default function Home() {
           </div>
 
           {/* Thin vertical white gap */}
-          <div className="hidden lg:block w-[4px] bg-white" style={{ minHeight: '600px' }} />
+          <div className="hidden lg:block w-[24px] bg-white" style={{ minHeight: '600px' }} />
 
           {/* Right Image - extends to edge */}
           <div
@@ -79,8 +79,8 @@ export default function Home() {
         style={{ backgroundColor: '#e5eef8', minHeight: '180px' }}
       >
         <div className="w-full h-full flex items-center" style={{ minHeight: '180px' }}>
-          {/* Logo Row - centered and evenly spaced */}
-          <div className="flex items-center justify-center gap-[60px] md:gap-[100px] lg:gap-[150px] px-[40px] lg:px-[108.33px] w-full">
+          {/* Logo Row - evenly distributed spacing */}
+          <div className="flex items-center justify-evenly px-[40px] lg:px-[108.33px] w-full">
             {/* Allied FireProtection - 117.58px x 120px */}
             <Image
               src="/allied_logo.png"
@@ -180,40 +180,40 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[40px]">
               {/* Column 1 */}
               <div className="text-center">
-                <h3 className="heading-palatino-24 mb-[12px]">
+                <h3 className="heading-palatino-24 text-black mb-[12px]">
                   Family-Owned &<br />Founder-Friendly
                 </h3>
-                <p className="body-palatino-18 text-center">
+                <p className="body-palatino-18 text-black text-center">
                   We are not private equity. We invest for longevity rather than short-term gains.
                 </p>
               </div>
 
               {/* Column 2 */}
               <div className="text-center">
-                <h3 className="heading-palatino-24 mb-[12px]">
+                <h3 className="heading-palatino-24 text-black mb-[12px]">
                   People at<br />the Center
                 </h3>
-                <p className="body-palatino-18 text-center">
+                <p className="body-palatino-18 text-black text-center">
                   We believe strong companies begin with strong teams.
                 </p>
               </div>
 
               {/* Column 3 */}
               <div className="text-center">
-                <h3 className="heading-palatino-24 mb-[12px]">
+                <h3 className="heading-palatino-24 text-black mb-[12px]">
                   Shared Expertise.<br />Local Identity.
                 </h3>
-                <p className="body-palatino-18 text-center">
+                <p className="body-palatino-18 text-black text-center">
                   We support each company&apos;s growth without diluting their legacy.
                 </p>
               </div>
 
               {/* Column 4 */}
               <div className="text-center">
-                <h3 className="heading-palatino-24 mb-[12px]">
+                <h3 className="heading-palatino-24 text-black mb-[12px]">
                   Operational Scale<br />with Local Service
                 </h3>
-                <p className="body-palatino-18 text-center">
+                <p className="body-palatino-18 text-black text-center">
                   Each company benefits from shared systems, best practices, and strategic guidance.
                 </p>
               </div>
@@ -292,10 +292,10 @@ export default function Home() {
 
           {/* Testimonial Quote */}
           <div className="max-w-[1100px] mx-auto text-center">
-            <p className="font-serif italic text-navy text-[18px] md:text-[20px] leading-relaxed mb-[16px]">
+            <p className="font-serif italic text-black text-[18px] md:text-[20px] leading-relaxed mb-[16px]">
               As I heard Patrick and the Atlantis Fire Protection team&apos;s vision for how they want the operators deeply involved, treat them as partners, and celebrate the individual brands, I knew I wanted to join the Atlantis Fire Protection platform.
             </p>
-            <p className="font-avenir font-semibold text-navy text-[16px]">
+            <p className="font-avenir font-semibold text-black text-[16px]">
               - Tony Thomas, Chief Executive Officer, Allied Fire Protection
             </p>
           </div>
@@ -327,29 +327,21 @@ export default function Home() {
       </section>
 
       {/* ============================================================
-          SECTION: GRADIENT IMAGE PLACEHOLDER
-          Orange/gradient decorative image section
-          Design specs: 1440px x 431.55px
+          SECTION: ORANGE DECORATIVE IMAGE
+          Orange decorative image section
+          Design specs: Full width x shorter height
           ============================================================ */}
       <section className="w-full">
-        <div
-          className="w-full bg-gray-400 flex items-center justify-center"
-          style={{ height: '431.55px' }}
-        >
-          <span className="text-gray-600 text-[24px] font-avenir">Gradient Image Placeholder</span>
+        <div className="w-full relative" style={{ height: '180px' }}>
+          <Image
+            src="/orange_horizontal_bar.jpg"
+            alt="Decorative background"
+            fill
+            className="object-cover"
+          />
         </div>
       </section>
 
-      {/* ============================================================
-          SECTION 6: CASE STUDIES (future)
-          ============================================================ */}
-      <section className="w-full bg-white py-[64px] md:py-[96px]">
-        <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">
-          <h2 className="heading-2 text-navy">
-            Case Studies <span className="text-gray-400 font-normal italic text-[24px]">(future)</span>
-          </h2>
-        </div>
-      </section>
     </>
   )
 }

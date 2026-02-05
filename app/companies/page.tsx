@@ -88,9 +88,22 @@ export default function CompaniesPage() {
         </div>
       </section>
 
-      {/* Allied Quote Section - Full Width Light Blue */}
+      {/* Allied Quote Section - Centered Box with Logo Above */}
       <section className="w-full bg-[#E5EEF8] py-[60px]">
-        <div className="max-w-[1200px] mx-auto px-[60px]">
+        <div className="max-w-[900px] mx-auto px-[40px]">
+          {/* Logo Centered */}
+          <div className="flex justify-center mb-[40px]">
+            <div className="relative w-[200px]" style={{ aspectRatio: '1/1' }}>
+              <Image
+                src="/allied_logo.png"
+                alt="Allied Fire Protection"
+                fill
+                className="object-contain"
+              />
+            </div>
+          </div>
+
+          {/* Quote Text */}
           <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
             &quot;Over the last several years, I built Allied Fire Protection into one of the fastest-growing, full-service fire protection service serving Alabama and the surrounding area. After hearing Patrick and the Atlantis Fire Protection team&apos;s vision for deeply investing operators, treating them as partners, and celebrating the individual brands, I knew I wanted to join the Atlantis Fire Protection platform. I look forward to working with Stella Black, Vince McCoy and the other operators at Atlantis Fire Protection to build one of the best-run, fastest growing platforms in the fire protection industry.&quot;
           </p>
@@ -148,9 +161,22 @@ export default function CompaniesPage() {
         </div>
       </section>
 
-      {/* McCoy Quote Section - Full Width Cream */}
+      {/* McCoy Quote Section - Centered Box with Logo Above */}
       <section className="w-full bg-cream py-[60px]">
-        <div className="max-w-[1200px] mx-auto px-[60px]">
+        <div className="max-w-[900px] mx-auto px-[40px]">
+          {/* Logo Centered */}
+          <div className="flex justify-center mb-[40px]">
+            <div className="relative w-[200px]" style={{ aspectRatio: '1/1' }}>
+              <Image
+                src="/mccoy_fire_logo.png"
+                alt="McCoy Fire"
+                fill
+                className="object-contain"
+              />
+            </div>
+          </div>
+
+          {/* Quote Text */}
           <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
             &quot;Over the 20-plus years in business, we have had our share of highs and lows in the industry, but with our team&apos;s hard work and dedication, we have managed to build one of the fastest-growing fire protection companies in our market. Having put so much of myself into McCoy Fire and Safety, it was a difficult decision to consider selling and partnering with anyone. However, when Patrick described their approach, I saw how unique it would be in the industry. I did not want to miss the opportunity to be one of the first companies and owner-operators on the platform. I am extremely excited to see what the future holds for Atlantis Fire.&quot;
           </p>
@@ -208,9 +234,22 @@ export default function CompaniesPage() {
         </div>
       </section>
 
-      {/* Keller's Quote Section - Full Width Light Blue */}
+      {/* Keller's Quote Section - Centered Box with Logo Above */}
       <section className="w-full bg-[#E5EEF8] py-[60px]">
-        <div className="max-w-[1200px] mx-auto px-[60px]">
+        <div className="max-w-[900px] mx-auto px-[40px]">
+          {/* Logo Centered */}
+          <div className="flex justify-center mb-[40px]">
+            <div className="relative w-[200px]" style={{ aspectRatio: '1/1' }}>
+              <Image
+                src="/kellers_logo.png"
+                alt="Keller&apos;s LLC"
+                fill
+                className="object-contain"
+              />
+            </div>
+          </div>
+
+          {/* Quote Text */}
           <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
             &quot;My family started Keller&apos;s 50 years ago, and ever since then, we built our reputation. I care deeply about. I constantly get approached to sell our business to financial firms, and it never feels like the right fit. I&apos;ve known Patrick Lynch for nearly a decade, and the vision for Atlantis Fire and how they want the operators deeply involved, treat them as partners, and celebrate the individual brands was what I wanted for the next chapter of Keller&apos;s. I couldn&apos;t be more excited for Keller&apos;s to join the Atlantis Fire platform.&quot;
           </p>

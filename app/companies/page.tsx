@@ -92,7 +92,7 @@ export default function CompaniesPage() {
       <section className="w-full bg-[#E5EEF8] py-[60px]">
         <div className="max-w-[900px] mx-auto px-[40px]">
           {/* Logo Centered */}
-          <div className="flex justify-center mb-[40px]">
+          <div className="flex justify-center mb-[12px]">
             <div className="relative w-[200px]" style={{ aspectRatio: '1/1' }}>
               <Image
                 src="/allied_logo.png"
@@ -165,7 +165,7 @@ export default function CompaniesPage() {
       <section className="w-full bg-cream py-[60px]">
         <div className="max-w-[900px] mx-auto px-[40px]">
           {/* Logo Centered */}
-          <div className="flex justify-center mb-[40px]">
+          <div className="flex justify-center mb-[12px]">
             <div className="relative w-[200px]" style={{ aspectRatio: '1/1' }}>
               <Image
                 src="/mccoy_fire_logo.png"
@@ -238,7 +238,7 @@ export default function CompaniesPage() {
       <section className="w-full bg-[#E5EEF8] py-[60px]">
         <div className="max-w-[900px] mx-auto px-[40px]">
           {/* Logo Centered */}
-          <div className="flex justify-center mb-[40px]">
+          <div className="flex justify-center mb-[12px]">
             <div className="relative w-[200px]" style={{ aspectRatio: '1/1' }}>
               <Image
                 src="/kellers_logo.png"

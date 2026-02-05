@@ -293,7 +293,7 @@ export default function AboutPage() {
       <section className="w-full">
         <div className="w-full relative" style={{ height: '180px' }}>
           <Image
-            src="/orangepicture.jpg"
+            src="/orange_horizontal_bar.jpg"
             alt="Decorative background"
             fill
             className="object-cover"

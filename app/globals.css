@@ -52,6 +52,39 @@
   .label-text {
     @apply text-sm font-semibold uppercase tracking-wider text-navy;
   }
+
+  /* Avenir Bold 18pt ALL CAPS - for section labels */
+  .avenir-label {
+    font-family: 'Avenir', 'Nunito Sans', 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* Palatino 48pt - for main headlines */
+  .palatino-headline {
+    font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  /* Palatino Bold 24pt - for subheadlines */
+  .palatino-subheadline {
+    font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  /* Palatino 18pt - for body copy */
+  .palatino-body {
+    font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+  }
 }
 
 @layer utilities {

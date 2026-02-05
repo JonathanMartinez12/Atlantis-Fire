@@ -71,9 +71,21 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap"
           rel="stylesheet"
         />
+        <style>{`
+          @font-face {
+            font-family: 'Avenir';
+            src: local('Avenir'), local('Avenir-Book'), local('AvenirNext-Regular');
+            font-weight: 400;
+          }
+          @font-face {
+            font-family: 'Avenir';
+            src: local('Avenir-Heavy'), local('Avenir-Bold'), local('AvenirNext-Bold');
+            font-weight: 700;
+          }
+        `}</style>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />

@@ -50,6 +50,8 @@ const config: Config = {
       fontFamily: {
         serif: ['Playfair Display', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
+        avenir: ['Avenir', 'Nunito Sans', 'Inter', 'system-ui', 'sans-serif'],
+        palatino: ['Palatino', 'Palatino Linotype', 'Book Antiqua', 'Georgia', 'serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

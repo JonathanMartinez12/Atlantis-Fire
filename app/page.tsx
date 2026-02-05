@@ -292,10 +292,10 @@ export default function Home() {
 
           {/* Testimonial Quote */}
           <div className="max-w-[1100px] mx-auto text-center">
-            <p className="font-serif italic text-navy text-[18px] md:text-[20px] leading-relaxed mb-[16px]">
+            <p className="font-serif italic text-black text-[18px] md:text-[20px] leading-relaxed mb-[16px]">
               As I heard Patrick and the Atlantis Fire Protection team&apos;s vision for how they want the operators deeply involved, treat them as partners, and celebrate the individual brands, I knew I wanted to join the Atlantis Fire Protection platform.
             </p>
-            <p className="font-avenir font-semibold text-navy text-[16px]">
+            <p className="font-avenir font-semibold text-black text-[16px]">
               - Tony Thomas, Chief Executive Officer, Allied Fire Protection
             </p>
           </div>

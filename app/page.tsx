@@ -153,16 +153,13 @@ export default function Home() {
 
       {/* ============================================================
           SECTION 4: WHY ATLANTIS
-          Cream background with navy top bar
+          White box inside cream background
           4 columns with titles and descriptions
           ============================================================ */}
-      <section className="w-full">
-        {/* Navy top bar */}
-        <div className="w-full h-[20px] bg-navy" />
-
-        {/* Cream content area */}
-        <div className="w-full bg-cream py-[80px]">
-          <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">
+      <section className="w-full bg-cream py-[80px]">
+        <div className="max-w-[1200px] mx-auto px-[40px] lg:px-[80px]">
+          {/* White box container */}
+          <div className="bg-white py-[60px] px-[40px] lg:px-[60px]">
             {/* Section Title - Serif italic style */}
             <h2 className="font-serif italic text-navy text-[48px] text-center mb-[60px]">
               Why Atlantis
@@ -215,90 +212,71 @@ export default function Home() {
       </section>
 
       {/* ============================================================
-          SECTION 5: INVESTMENT APPROACH
-          Cream background - 1440px x 784px
-          Large headline + 2 cards side by side
+          SECTION 5: OUR PORTFOLIO & EXPERTISE
+          Cream background with two cards + testimonial
           ============================================================ */}
       <section className="w-full bg-cream">
-        <div
-          className="max-w-[1440px] mx-auto flex flex-col items-center justify-center px-[40px] lg:px-[80px] py-[80px]"
-          style={{ minHeight: '784px' }}
-        >
-          {/* Main Headline - 1038px x 92.04px - Avenir Demi Bold centered */}
-          <h2
-            className="heading-1 text-navy text-center mb-[60px]"
-            style={{ maxWidth: '1038px' }}
-          >
-            Headline Itam quam aute pro inctaqu ibust.
-          </h2>
-
-          {/* Two Cards */}
-          <div className="flex flex-col md:flex-row gap-[60px] justify-center">
-            {/* Card 1 - OUR INVESTOR PROFILE */}
-            <div className="flex flex-col items-center" style={{ width: '415.67px' }}>
-              {/* Image Placeholder - 415.67px x 259.41px */}
+        <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px] py-[60px]">
+          {/* Two Cards Side by Side */}
+          <div className="flex flex-col md:flex-row gap-[24px] justify-center mb-[48px]">
+            {/* Card 1 - OUR PORTFOLIO */}
+            <div className="flex flex-col items-center" style={{ maxWidth: '500px' }}>
+              {/* Image Placeholder */}
               <div
                 className="w-full bg-gray-400 flex items-center justify-center mb-[24px]"
-                style={{ width: '415.67px', height: '259.41px' }}
+                style={{ height: '280px' }}
               >
                 <span className="text-gray-600 text-[48px] font-avenir font-semibold">3</span>
               </div>
 
-              {/* Card Title - 415.67px x 35px - Avenir Demi Bold 28pt - coral color */}
-              <h3
-                className="heading-4 text-coral text-center mb-[16px]"
-                style={{ width: '415.67px', height: '35px', lineHeight: '35px' }}
-              >
-                OUR INVESTOR PROFILE
+              {/* Card Title - Navy uppercase */}
+              <h3 className="font-avenir font-bold text-navy text-[20px] uppercase tracking-wide text-center mb-[16px]">
+                OUR PORTFOLIO
               </h3>
 
-              {/* Card Body - 415.67px x 32.52px */}
-              <p
-                className="body-text text-center mb-[32px]"
-                style={{ width: '415.67px' }}
-              >
-                Itam quam aute pro inctaqu ibust, quia sed escima sitata
-                occabor raeribus eos et porest apiet aut doluptibus
+              {/* Card Body */}
+              <p className="body-text text-center">
+                Atlantis Fire is the parent company to a growing group of exceptional fire protection brands across the U.S., each with deep regional roots and technical expertise.
               </p>
-
-              {/* INVESTOR Button - 158px x 34px */}
-              <Button href="/about" variant="primary" size="md">
-                INVESTOR
-              </Button>
             </div>
 
-            {/* Card 2 - OUR INVESTMENT PROFILE */}
-            <div className="flex flex-col items-center" style={{ width: '415.67px' }}>
-              {/* Image Placeholder - 415.67px x 259.41px */}
+            {/* Card 2 - TOTAL COMBINED EXPERTISE */}
+            <div className="flex flex-col items-center" style={{ maxWidth: '500px' }}>
+              {/* Image Placeholder */}
               <div
                 className="w-full bg-gray-400 flex items-center justify-center mb-[24px]"
-                style={{ width: '415.67px', height: '259.41px' }}
+                style={{ height: '280px' }}
               >
                 <span className="text-gray-600 text-[48px] font-avenir font-semibold">4</span>
               </div>
 
-              {/* Card Title - 415.67px x 35px - Avenir Demi Bold 28pt - coral color */}
-              <h3
-                className="heading-4 text-coral text-center mb-[16px]"
-                style={{ width: '415.67px', height: '35px', lineHeight: '35px' }}
-              >
-                OUR INVESTMENT PROFILE
+              {/* Card Title - Navy uppercase */}
+              <h3 className="font-avenir font-bold text-navy text-[20px] uppercase tracking-wide text-center mb-[16px]">
+                TOTAL COMBINED EXPERTISE
               </h3>
 
-              {/* Card Body - 415.67px x 32.52px */}
-              <p
-                className="body-text text-center mb-[32px]"
-                style={{ width: '415.67px' }}
-              >
-                Itam quam aute pro inctaqu ibust, quia sed escima sitata
-                occabor raeribus eos et porest apiet aut doluptibus
+              {/* Card Body */}
+              <p className="body-text text-center">
+                With 81 years of combined operating history, our companies bring deep technical knowledge across fire alarm, sprinkler, and special hazard systems—supported by NICET-certified engineering teams and a culture built on safety, quality, and operational excellence.
               </p>
-
-              {/* INVESTMENT Button - 158px x 34px */}
-              <Button href="/about" variant="primary" size="md">
-                INVESTMENT
-              </Button>
             </div>
+          </div>
+
+          {/* OUR COMPANIES Button - centered */}
+          <div className="flex justify-center mb-[60px]">
+            <Button href="/companies" variant="primary" size="md">
+              OUR COMPANIES
+            </Button>
+          </div>
+
+          {/* Testimonial Quote */}
+          <div className="max-w-[1100px] mx-auto text-center">
+            <p className="font-serif italic text-navy text-[18px] md:text-[20px] leading-relaxed mb-[16px]">
+              As I heard Patrick and the Atlantis Fire Protection team&apos;s vision for how they want the operators deeply involved, treat them as partners, and celebrate the individual brands, I knew I wanted to join the Atlantis Fire Protection platform.
+            </p>
+            <p className="font-avenir font-semibold text-navy text-[16px]">
+              - Tony Thomas, Chief Executive Officer, Allied Fire Protection
+            </p>
           </div>
         </div>
       </section>

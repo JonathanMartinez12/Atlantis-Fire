@@ -58,48 +58,52 @@ export default function Home() {
 
       {/* ============================================================
           SECTION 2: OUR COMPANIES
-          White box with label, then light blue bar with logos
+          White box with label (108.33px x 55px), then light blue bar with logos
+          Design specs: 1440px x 180px for logo section, background #e5eef8
           ============================================================ */}
-      {/* White area with OUR COMPANIES label */}
-      <section className="w-full bg-white py-[30px]">
-        <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">
-          <h2 className="label-text text-navy">OUR COMPANIES</h2>
+      {/* White area with OUR COMPANIES label - 55px height */}
+      <section className="w-full bg-white" style={{ minHeight: '55px', paddingTop: '18px', paddingBottom: '18px' }}>
+        <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[108.33px]">
+          <h2 className="label-avenir-18 text-navy">OUR COMPANIES</h2>
         </div>
       </section>
 
-      {/* Light blue bar with logos */}
+      {/* Light blue bar with logos - 1440px x 180px */}
       <section
         className="w-full"
-        style={{ backgroundColor: '#dce8f3' }}
+        style={{ backgroundColor: '#e5eef8', minHeight: '180px' }}
       >
-        <div className="w-full py-[40px]">
+        <div className="w-full h-full flex items-center" style={{ minHeight: '180px' }}>
           {/* Logo Row - centered and evenly spaced */}
-          <div className="flex items-center justify-center gap-[60px] md:gap-[120px] lg:gap-[200px] px-[40px]">
-            {/* Allied FireProtection */}
+          <div className="flex items-center justify-center gap-[60px] md:gap-[100px] lg:gap-[150px] px-[40px] lg:px-[108.33px] w-full">
+            {/* Allied FireProtection - 117.58px x 120px */}
             <Image
               src="/allied_logo.png"
               alt="Allied Fire Protection"
-              width={150}
-              height={150}
-              className="object-contain h-[100px] md:h-[130px] w-auto"
+              width={118}
+              height={120}
+              className="object-contain"
+              style={{ width: '117.58px', height: '120px' }}
             />
 
-            {/* McCoy Fire */}
+            {/* McCoy Fire - 120px x 120px */}
             <Image
               src="/mccoy_fire_logo.png"
               alt="McCoy Fire"
-              width={150}
-              height={150}
-              className="object-contain h-[100px] md:h-[130px] w-auto"
+              width={120}
+              height={120}
+              className="object-contain"
+              style={{ width: '120px', height: '120px' }}
             />
 
-            {/* Keller's LLC */}
+            {/* Keller's LLC - 196.11px x 108.24px */}
             <Image
               src="/kellers_logo.png"
               alt="Keller&apos;s LLC"
-              width={200}
-              height={110}
-              className="object-contain h-[80px] md:h-[100px] w-auto"
+              width={196}
+              height={108}
+              className="object-contain"
+              style={{ width: '196.11px', height: '108.24px' }}
             />
           </div>
         </div>
@@ -110,38 +114,34 @@ export default function Home() {
 
       {/* ============================================================
           SECTION 3: WHO WE ARE
-          Image on left (415.67px x 515px) + Content on right
+          Image on left (521.67px x 401.10px) + Content on right (521.67px x 224.81px)
+          Design specs: cream background, Palatino 48pt italic title
           ============================================================ */}
-      <section className="w-full bg-white">
-        <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center py-[80px] px-[40px] lg:px-[80px]">
-          {/* Left Image Placeholder - 415.67px x 515px */}
+      <section className="w-full bg-cream">
+        <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center py-[55px] px-[40px] lg:px-[108.33px]">
+          {/* Left Image - 521.67px x 401.10px */}
+          {/* TODO: Add fire extinguisher image (istockphoto-2181672281-1024x1024.jpg) to public folder */}
           <div
             className="flex-shrink-0 bg-gray-400 flex items-center justify-center mb-[40px] lg:mb-0 lg:mr-[80px]"
-            style={{ width: '415.67px', height: '515px' }}
+            style={{ width: '521.67px', height: '401.10px' }}
           >
-            <span className="text-gray-600 text-[48px] font-avenir font-semibold">2</span>
+            <span className="text-gray-600 text-[18px] font-avenir">Fire Equipment Image</span>
           </div>
 
-          {/* Right Content */}
-          <div className="flex-1">
-            {/* Headline - Avenir Demi Bold */}
-            <h2
-              className="heading-2 text-navy mb-[24px]"
-              style={{ maxWidth: '450px' }}
-            >
+          {/* Right Content - 521.67px x 224.81px text area */}
+          <div className="flex-1" style={{ maxWidth: '521.67px' }}>
+            {/* Headline - Palatino 48pt italic */}
+            <h2 className="heading-palatino-48 mb-[24px]">
               Who We Are
             </h2>
 
-            {/* Body text */}
-            <p
-              className="body-text mb-[32px]"
-              style={{ maxWidth: '450px' }}
-            >
+            {/* Body text - Palatino 18pt */}
+            <p className="body-palatino-18 mb-[32px]">
               Atlantis Fire was founded to give fire protection business owners a founder-friendly option. We believe in protecting our companies&apos; legacies, valuing their people and ensuring the long-term success of their customers and communities. We maintain the strength, independence, and reputation of each local brand while providing the structure and support of a fully integrated fire protection platform.
             </p>
 
-            {/* LEARN MORE Button - 158px x 34px */}
-            <Button href="/about" variant="primary" size="md">
+            {/* LEARN MORE Button - 182.50px x 40px */}
+            <Button href="/about" variant="primary" size="lg">
               LEARN MORE
             </Button>
           </div>
@@ -152,54 +152,55 @@ export default function Home() {
           SECTION 4: WHY ATLANTIS
           Full-width white box (edge to edge) inside cream background
           4 columns with titles and descriptions
+          Design specs: 1440px x 640.04px total, title 846.67px x 97.49px
           ============================================================ */}
       <section className="w-full bg-cream py-[40px]">
-        {/* Full-width white box */}
+        {/* Full-width white box - 1440px max width */}
         <div className="w-full bg-white py-[60px] px-[40px] lg:px-[80px]">
           <div className="max-w-[1200px] mx-auto">
-            {/* Section Title - Serif italic style */}
-            <h2 className="font-serif italic text-navy text-[48px] text-center mb-[60px]">
+            {/* Section Title - Palatino 48pt italic */}
+            <h2 className="heading-palatino-48 text-center mb-[60px]">
               Why Atlantis
             </h2>
 
-            {/* 4 Columns */}
+            {/* 4 Columns - 1200px x 147.75px content area */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[40px]">
               {/* Column 1 */}
               <div className="text-center">
-                <h3 className="font-avenir font-semibold text-navy text-[18px] mb-[12px]">
+                <h3 className="heading-palatino-24 mb-[12px]">
                   Family-Owned &<br />Founder-Friendly
                 </h3>
-                <p className="body-text text-center">
+                <p className="body-palatino-18 text-center">
                   We are not private equity. We invest for longevity rather than short-term gains.
                 </p>
               </div>
 
               {/* Column 2 */}
               <div className="text-center">
-                <h3 className="font-avenir font-semibold text-navy text-[18px] mb-[12px]">
+                <h3 className="heading-palatino-24 mb-[12px]">
                   People at<br />the Center
                 </h3>
-                <p className="body-text text-center">
+                <p className="body-palatino-18 text-center">
                   We believe strong companies begin with strong teams.
                 </p>
               </div>
 
               {/* Column 3 */}
               <div className="text-center">
-                <h3 className="font-avenir font-semibold text-navy text-[18px] mb-[12px]">
+                <h3 className="heading-palatino-24 mb-[12px]">
                   Shared Expertise.<br />Local Identity.
                 </h3>
-                <p className="body-text text-center">
+                <p className="body-palatino-18 text-center">
                   We support each company&apos;s growth without diluting their legacy.
                 </p>
               </div>
 
               {/* Column 4 */}
               <div className="text-center">
-                <h3 className="font-avenir font-semibold text-navy text-[18px] mb-[12px]">
+                <h3 className="heading-palatino-24 mb-[12px]">
                   Operational Scale<br />with Local Service
                 </h3>
-                <p className="body-text text-center">
+                <p className="body-palatino-18 text-center">
                   Each company benefits from shared systems, best practices, and strategic guidance.
                 </p>
               </div>

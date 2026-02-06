@@ -309,8 +309,8 @@ export default function Home() {
           ============================================================ */}
       <section className="w-full bg-white py-[80px]">
         <div className="max-w-[1063px] mx-auto px-[40px] text-center">
-          {/* Heading - Palatino 48pt */}
-          <h2 className="heading-palatino-48 mb-[24px]">
+          {/* Heading - Match hero headline style */}
+          <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
             Ready to Connect?
           </h2>
 

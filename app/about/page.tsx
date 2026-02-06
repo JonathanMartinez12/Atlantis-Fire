@@ -37,7 +37,7 @@ export default function AboutPage() {
             <p className="label-text text-navy mb-[16px]">ABOUT ATLANTIS</p>
 
             {/* Headline - Our Story */}
-            <h1 className="heading-palatino-48 text-navy mb-[32px]">
+            <h1 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[32px]">
               Our Story
             </h1>
 
@@ -137,7 +137,7 @@ export default function AboutPage() {
       <section className="w-full bg-white py-[80px]">
         <div className="max-w-[1440px] mx-auto px-[40px] lg:px-[80px]">
           {/* Heading */}
-          <h2 className="heading-palatino-48 text-navy text-center mb-[60px]">
+          <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight text-center mb-[60px]">
             Our Values
           </h2>
 
@@ -203,7 +203,7 @@ export default function AboutPage() {
       <section className="w-full bg-cream py-[80px]">
         <div className="max-w-[1200px] mx-auto px-[40px] lg:px-[80px]">
           {/* Heading */}
-          <h2 className="heading-palatino-48 text-navy text-center mb-[16px]">
+          <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight text-center mb-[16px]">
             The Atlantis Platform
           </h2>
 
@@ -271,7 +271,7 @@ export default function AboutPage() {
       <section className="w-full bg-white py-[80px]">
         <div className="max-w-[1063px] mx-auto px-[40px] text-center">
           {/* Heading */}
-          <h2 className="heading-palatino-48 text-navy mb-[24px]">
+          <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
             Ready to Learn More?
           </h2>
 

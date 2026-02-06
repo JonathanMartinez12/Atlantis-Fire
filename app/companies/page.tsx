@@ -31,7 +31,7 @@ export default function CompaniesPage() {
           ============================================================ */}
       <section className="w-full bg-cream py-[80px]">
         <div className="max-w-[1200px] mx-auto px-[40px] text-center">
-          <h1 className="heading-palatino-48 text-navy mb-[24px]">
+          <h1 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
             A Strong Portfolio of Proven Fire Protection Companies
           </h1>
           <p className="body-palatino-18 text-black max-w-[900px] mx-auto">
@@ -56,7 +56,7 @@ export default function CompaniesPage() {
               </p>
 
               {/* Company Name */}
-              <h2 className="heading-palatino-48 text-navy mb-[24px]">
+              <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
                 Allied Fire Protection
               </h2>
 
@@ -117,7 +117,7 @@ export default function CompaniesPage() {
               </p>
 
               {/* Company Name */}
-              <h2 className="heading-palatino-48 text-navy mb-[24px]">
+              <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
                 McCoy Fire
               </h2>
 
@@ -178,7 +178,7 @@ export default function CompaniesPage() {
               </p>
 
               {/* Company Name */}
-              <h2 className="heading-palatino-48 text-navy mb-[24px]">
+              <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
                 Keller&apos;s
               </h2>
 
@@ -229,7 +229,7 @@ export default function CompaniesPage() {
           ============================================================ */}
       <section className="w-full bg-cream py-[80px]">
         <div className="max-w-[1000px] mx-auto px-[40px] text-center">
-          <h2 className="heading-palatino-48 text-navy mb-[24px]">
+          <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
             Interested in Joining the Atlantis Family?
           </h2>
           <p className="body-palatino-18 text-black mb-[16px]">

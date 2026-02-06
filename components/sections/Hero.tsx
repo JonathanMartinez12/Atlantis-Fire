@@ -31,7 +31,7 @@ export default function Hero({
             {label && (
               <p className="label-text text-navy mb-[16px]">{label}</p>
             )}
-            <h1 className="heading-1 text-navy mb-[24px]">
+            <h1 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
               {headline}
             </h1>
             {body && (

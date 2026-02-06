@@ -59,37 +59,39 @@
     color: #334073;
   }
 
-  /* Heading 1 - Large hero/section headlines ~48px */
+  /* Heading 1 - Large hero/section headlines - Match hero style */
   .heading-1 {
-    font-family: 'Avenir', 'Avenir Next', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Palatino Linotype', 'Palatino', 'Book Antiqua', 'Georgia', serif;
     font-size: 36px;
-    font-weight: 600;
-    line-height: 1.15;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #334073;
   }
 
   @media (min-width: 768px) {
     .heading-1 {
-      font-size: 48px;
+      font-size: 42px;
     }
   }
 
   @media (min-width: 1024px) {
     .heading-1 {
-      font-size: 56px;
+      font-size: 48px;
     }
   }
 
-  /* Heading 2 - Section headlines */
+  /* Heading 2 - Section headlines - Match hero style */
   .heading-2 {
-    font-family: 'Avenir', 'Avenir Next', 'Nunito Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 1.15;
+    font-family: 'Palatino Linotype', 'Palatino', 'Book Antiqua', 'Georgia', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #334073;
   }
 
   @media (min-width: 768px) {
     .heading-2 {
-      font-size: 36px;
+      font-size: 42px;
     }
   }
 

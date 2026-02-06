@@ -139,8 +139,8 @@ export default function Home() {
 
           {/* Right Content - 521.67px x 224.81px text area */}
           <div className="flex-1" style={{ maxWidth: '521.67px' }}>
-            {/* Headline - Palatino 48pt italic */}
-            <h2 className="heading-palatino-48 mb-[24px]">
+            {/* Headline - Match hero headline style */}
+            <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
               Who We Are
             </h2>
 
@@ -171,8 +171,8 @@ export default function Home() {
         {/* Full-width white box - 1440px max width */}
         <div className="w-full bg-white py-[60px] px-[40px] lg:px-[80px]">
           <div className="max-w-[1200px] mx-auto">
-            {/* Section Title - Palatino 48pt italic */}
-            <h2 className="heading-palatino-48 text-center mb-[60px]">
+            {/* Section Title - Match hero headline style */}
+            <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight text-center mb-[60px]">
               Why Atlantis
             </h2>
 

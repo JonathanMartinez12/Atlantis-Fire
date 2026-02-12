@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center group mb-[16px]">
               <Image
-                src="/reverse_atlantis.png"
+                src="/Atlantis_logo _horiz.png"
                 alt="Atlantis Fire Protection"
                 width={400}
                 height={83}
@@ -20,7 +20,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-gray-300 mb-[8px]">{siteConfig.description}</p>
-            <p className="text-coral font-medium">{siteConfig.tagline}</p>
+            <p className="font-medium" style={{ color: '#FF6B35' }}>{siteConfig.tagline}</p>
           </div>
 
           {/* Navigation Links */}
@@ -42,10 +42,13 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-coral font-semibold mb-[16px]">Contact</h3>
+            <h3 className="text-white font-semibold mb-[16px]">Contact</h3>
             <Link
               href="/contact"
-              className="text-coral hover:text-coral-300 transition-colors duration-200 font-medium"
+              className="font-medium transition-colors duration-200"
+              style={{ color: '#FF6B35' }}
+              onMouseEnter={(e) => e.currentTarget.style.color = '#FF8C42'}
+              onMouseLeave={(e) => e.currentTarget.style.color = '#FF6B35'}
             >
               Get in Touch
             </Link>

@@ -71,11 +71,6 @@ export default function AboutPage() {
             <p className="body-palatino-18 text-black mb-[32px]">
               Today, Atlantis Fire serves as a home for fire protection businesses that value expertise, culture, and industry integrity.
             </p>
-
-            {/* OUR STORY Button */}
-            <Button href="/about" variant="primary" size="md">
-              OUR STORY
-            </Button>
           </div>
 
           {/* Right Image */}
@@ -209,7 +204,7 @@ export default function AboutPage() {
 
           {/* Subheading */}
           <p className="font-avenir font-bold text-navy text-[16px] uppercase text-center mb-[48px]">
-            WE HELP OUR COMPANIES THRIVE THROUGH:
+            WE ENSURE OUR COMPANIES THRIVE BY SUPPORTING THEM IN:
           </p>
 
           {/* Two columns of bullet points */}
@@ -253,13 +248,6 @@ export default function AboutPage() {
                 <p className="body-palatino-18 text-black">Regional expansion support</p>
               </div>
             </div>
-          </div>
-
-          {/* CONTACT US Button */}
-          <div className="flex justify-center">
-            <Button href="/contact" variant="primary" size="md">
-              CONTACT US
-            </Button>
           </div>
         </div>
       </section>

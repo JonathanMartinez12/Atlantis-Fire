@@ -16,9 +16,9 @@ export default function Footer() {
               <Image
                 src="/reverse_atlantis.png"
                 alt="Atlantis Fire Protection"
-                width={400}
-                height={83}
-                className="h-[140px] w-auto"
+                width={500}
+                height={104}
+                className="h-[180px] w-auto"
               />
             </Link>
             <p className="text-gray-300 mb-[8px]">{siteConfig.description}</p>

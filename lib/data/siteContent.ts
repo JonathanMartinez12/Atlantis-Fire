@@ -152,6 +152,6 @@ export const companiesContent = {
 export const contactContent = {
   hero: {
     headline: 'Get in Touch',
-    body: 'Whether you\'re a fire protection business exploring a partnership or a company looking to better understand our platform, we\'re here to help.',
+    body: 'Whether you\'re a fire protection business exploring a partnership or a company looking to better understand our platform, please reach out for more information.',
   },
 }

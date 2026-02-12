@@ -52,7 +52,7 @@ export default function CompaniesPage() {
             <div className="flex-1 p-[60px] lg:p-[80px]">
               {/* Location Label */}
               <p className="font-avenir font-bold text-navy text-[14px] uppercase tracking-wide mb-[16px]">
-                ALABAMA & TENNESSEE
+                ALABAMA, MISSISSIPPI, & TENNESSEE
               </p>
 
               {/* Company Name */}
@@ -67,7 +67,7 @@ export default function CompaniesPage() {
 
               {/* Body Text */}
               <p className="body-palatino-18 text-black mb-[32px]">
-                Founded in 2022, Allied delivers full-scope fire protection services, including engineering, design, installation, inspection, and service of sprinkler, fire alarm, and special hazard systems. Known for their outstanding team, Allied has quickly become a preferred provider in Alabama and Tennessee. Their culture attracts high-performing technicians and fosters long-term customer relationships, making Allied one of the most promising emerging companies in the region.
+                Founded in 2022, Allied delivers full-scope fire protection services, including engineering, design, installation, inspection, and service of sprinkler, fire alarm, and special hazard systems. Known for their outstanding team, Allied has quickly become a preferred provider in Alabama, Mississippi, & Tennessee. Their culture attracts high-performing technicians and fosters long-term customer relationships, making Allied one of the most promising emerging companies in the region.
               </p>
 
               {/* VISIT SITE Button */}
@@ -92,7 +92,7 @@ export default function CompaniesPage() {
           {/* Quote Section Below */}
           <div className="max-w-[1200px] mx-auto px-[60px] lg:px-[80px] pb-[60px] lg:pb-[80px]">
             <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
-              &quot;Over the last several years, I built Allied Fire Protection into one of the fastest-growing, full-service fire protection service serving Alabama and the surrounding area. After hearing Patrick and the Atlantis Fire Protection team&apos;s vision for deeply investing operators, treating them as partners, and celebrating the individual brands, I knew I wanted to join the Atlantis Fire Protection platform. I look forward to working with Stella Black, Vince McCoy and the other operators at Atlantis Fire Protection to build one of the best-run, fastest growing platforms in the fire protection industry.&quot;
+              &quot;Over the last several years, I built Allied Fire Protection into one of the fastest-growing, full-service fire protection service serving Alabama and the surrounding area. After hearing Patrick and the Atlantis Fire Protection team&apos;s vision for deeply investing in operators, treating them as partners, and celebrating the individual brands, I knew I wanted to join the Atlantis Fire Protection platform. I look forward to working with Stella Black, Vince McCoy and the other operators at Atlantis Fire Protection to build one of the best-run, fastest growing platforms in the fire protection industry.&quot;
             </p>
             <p className="font-avenir font-semibold text-navy text-[14px]">
               - Tony Thomas, Chief Executive Officer, Allied Fire Protection
@@ -113,7 +113,7 @@ export default function CompaniesPage() {
             <div className="flex-1 p-[60px] lg:p-[80px]">
               {/* Location Label */}
               <p className="font-avenir font-bold text-navy text-[14px] uppercase tracking-wide mb-[16px]">
-                ALABAMA & TENNESSEE
+                SOUTH EASTERN UNITED STATES
               </p>
 
               {/* Company Name */}
@@ -189,7 +189,7 @@ export default function CompaniesPage() {
 
               {/* Body Text */}
               <p className="body-palatino-18 text-black mb-[32px]">
-                Established in 1973, Keller&apos;s is known for its unmatched strength in fire alarm engineering, design, and service. With multiple NICET IV-certified professionals and more than 50 years of history, Keller&apos;s is trusted by nuclear facilities, government agencies, industrial campuses, and other highly specialized environments. Their longevity, technical excellence, and long-tenured team make Keller&apos;s one of the most respected fire alarm firms in the industry, serving clients locally, nationally, and globally.
+                Established in 1973, Keller&apos;s is known for its unmatched strength in fire alarm engineering, design, and service. With multiple NICET IV-certified professionals and more than 50 years of history, Keller&apos;s is trusted by nuclear facilities, government agencies, industrial campuses, and other highly specialized environments. Their longevity, technical excellence, and long-tenured team make Keller&apos;s one of the most respected fire alarm companies in the industry, serving clients locally, nationally, and globally.
               </p>
 
               {/* VISIT SITE Button */}
@@ -236,7 +236,7 @@ export default function CompaniesPage() {
             Atlantis Fire partners with strong fire protection companies that share our values and commitment to operational excellence.
           </p>
           <p className="body-palatino-18 text-black mb-[40px]">
-            Contact us to start the conversation
+            Contact us to start the conversation.
           </p>
           <Button href="/contact" variant="primary" size="md">
             CONTACT

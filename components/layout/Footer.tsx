@@ -14,9 +14,9 @@ export default function Footer() {
               <Image
                 src="/reverse_atlantis.png"
                 alt="Atlantis Fire Protection"
-                width={322}
-                height={67}
-                className="h-[120px] w-auto"
+                width={400}
+                height={83}
+                className="h-[140px] w-auto"
               />
             </Link>
             <p className="text-gray-300 mb-[8px]">{siteConfig.description}</p>
@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-white font-semibold mb-[16px]">Contact</h3>
+            <h3 className="text-coral font-semibold mb-[16px]">Contact</h3>
             <Link
               href="/contact"
               className="text-coral hover:text-coral-300 transition-colors duration-200 font-medium"

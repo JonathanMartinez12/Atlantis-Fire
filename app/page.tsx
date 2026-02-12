@@ -146,7 +146,7 @@ export default function Home() {
 
             {/* Body text - Palatino 18pt */}
             <p className="body-palatino-18 mb-[24px]">
-              Atlantis Fire was founded to give fire protection business owners a founder-friendly option. We believe in protecting our companies&apos; legacies, valuing their people and ensuring the long-term success of their customers and communities.
+              Atlantis Fire was formed to give fire protection business owners a founder-friendly option. We believe in protecting our companies&apos; legacies, valuing their people and ensuring the long-term success of their customers and communities.
             </p>
 
             <p className="body-palatino-18 mb-[32px]">
@@ -273,12 +273,12 @@ export default function Home() {
 
               {/* Card Title - Navy uppercase */}
               <h3 className="font-avenir font-bold text-navy text-[20px] uppercase tracking-wide text-center mb-[16px]">
-                TOTAL COMBINED EXPERTISE
+                OPERATIONAL EXCELLENCE
               </h3>
 
               {/* Card Body */}
               <p className="body-text text-center">
-                With 81 years of combined operating history, our companies bring deep technical knowledge across fire alarm, sprinkler, and special hazard systems—supported by NICET-certified engineering teams and a culture built on safety, quality, and operational excellence.
+                With strong local roots and longevity in the industry, our companies bring deep technical knowledge across fire alarm, fire sprinkler, and special hazard systems. Each company is supported by NICET-certified engineering teams and a culture built on safety, quality, and operational excellence.
               </p>
             </div>
           </div>
@@ -316,7 +316,7 @@ export default function Home() {
 
           {/* Body text - Palatino 18pt */}
           <p className="body-palatino-18 mb-[40px]">
-            Whether you&apos;re exploring a partnership or want to learn more about our portfolio, we&apos;re here to help.
+            Whether you&apos;re exploring a partnership or want to learn more about our portfolio, please reach out for more information.
           </p>
 
           {/* CONTACT Button */}

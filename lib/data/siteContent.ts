@@ -29,7 +29,7 @@ export const homeContent = {
     label: 'ABOUT ATLANTIS',
     headline: 'Who We Are',
     body: [
-      'Atlantis Fire was founded to give fire protection business owners a founder-friendly option. We believe in protecting our companies\' legacies, valuing their people and ensuring the long-term success of their customers and communities.',
+      'Atlantis Fire was formed to give fire protection business owners a founder-friendly option. We believe in protecting our companies\' legacies, valuing their people and ensuring the long-term success of their customers and communities.',
       'We maintain the strength, independence, and reputation of each local brand while providing the structure and support of a fully integrated fire protection platform.',
     ],
     link: { text: 'Learn More', href: '/about' },
@@ -61,8 +61,8 @@ export const homeContent = {
     headline: 'Our Portfolio',
     intro: 'Atlantis Fire is the parent company to a growing group of exceptional fire protection brands across the U.S., each with deep regional roots and technical expertise.',
     stats: {
-      title: 'Total Combined Expertise',
-      text: 'With 81 years of combined operating history, our companies bring deep technical knowledge across fire alarm, sprinkler, and special hazard systems—supported by NICET-certified engineering teams and a culture built on safety, quality, and operational excellence.',
+      title: 'Operational Excellence',
+      text: 'With strong local roots and longevity in the industry, our companies bring deep technical knowledge across fire alarm, fire sprinkler, and special hazard systems. Each company is supported by NICET-certified engineering teams and a culture built on safety, quality, and operational excellence.',
     },
     cta: { text: 'Review Portfolio of Companies', href: '/companies' },
   },
@@ -73,7 +73,7 @@ export const homeContent = {
   },
   cta: {
     headline: 'Ready to Connect?',
-    text: 'Whether you\'re exploring a partnership or want to learn more about our portfolio, we\'re here to help.',
+    text: 'Whether you\'re exploring a partnership or want to learn more about our portfolio, please reach out for more information.',
     button: { text: 'Contact Us', href: '/contact' },
   },
 }

@@ -8,7 +8,6 @@ export const siteConfig = {
 
 export const navigation = {
   main: [
-    { name: 'Investment Approach', href: '/investment' },
     { name: 'About Atlantis', href: '/about' },
     { name: 'Our Companies', href: '/companies' },
   ],

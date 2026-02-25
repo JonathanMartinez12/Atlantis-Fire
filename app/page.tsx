@@ -16,7 +16,7 @@ export default function Home() {
             className="bg-cream w-full lg:w-[60%] flex items-center"
             style={{ minHeight: '600px' }}
           >
-            <div className="px-[40px] py-[60px] lg:pl-[80px] lg:pr-[60px] max-w-[700px] ml-auto lg:ml-[80px]">
+            <div className="px-[40px] py-[60px] lg:pl-[60px] lg:pr-[60px] max-w-[700px]">
               {/* Label - ABOUT ATLANTIS - Avenir Bold 14pt */}
               <p className="label-text text-navy mb-[16px]">ABOUT ATLANTIS</p>
 

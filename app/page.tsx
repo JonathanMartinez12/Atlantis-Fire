@@ -7,16 +7,17 @@ export default function Home() {
       {/* ============================================================
           SECTION 1: ABOUT ATLANTIS
           Cream content on left + image on right
-          Image extends to edge of screen
+          Contained with equal padding on both sides
           ============================================================ */}
       <section className="w-full">
-        <div className="flex flex-col lg:flex-row">
-          {/* Left Content - Cream Background - approximately 60% */}
-          <div
-            className="bg-cream w-full lg:w-[60%] flex items-center"
-            style={{ minHeight: '600px' }}
-          >
-            <div className="px-[40px] py-[60px] lg:pl-[60px] lg:pr-[60px] max-w-[700px]">
+        <div className="max-w-[1440px] mx-auto px-[60px]">
+          <div className="flex flex-col lg:flex-row">
+            {/* Left Content - Cream Background - approximately 60% */}
+            <div
+              className="bg-cream w-full lg:w-[60%] flex items-center"
+              style={{ minHeight: '600px' }}
+            >
+              <div className="px-[40px] py-[60px] lg:pl-[60px] lg:pr-[60px] max-w-[700px]">
               {/* Label - ABOUT ATLANTIS - Avenir Bold 14pt */}
               <p className="label-text text-navy mb-[16px]">ABOUT ATLANTIS</p>
 
@@ -46,17 +47,18 @@ export default function Home() {
           {/* Thin vertical white gap */}
           <div className="hidden lg:block w-[24px] bg-white" style={{ minHeight: '600px' }} />
 
-          {/* Right Image - extends to edge */}
-          <div
-            className="w-full lg:flex-1 relative"
-            style={{ minHeight: '600px' }}
-          >
-            <Image
-              src="/pictureone.jpg"
-              alt="About Atlantis"
-              fill
-              className="object-cover"
-            />
+            {/* Right Image - contained within padding */}
+            <div
+              className="w-full lg:flex-1 relative"
+              style={{ minHeight: '600px' }}
+            >
+              <Image
+                src="/pictureone.jpg"
+                alt="About Atlantis"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>

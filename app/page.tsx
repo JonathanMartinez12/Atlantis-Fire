@@ -53,7 +53,7 @@ export default function Home() {
               style={{ minHeight: '600px' }}
             >
               <Image
-                src="/pictureone.jpg"
+                src="/pictureoneone.jpg"
                 alt="About Atlantis"
                 fill
                 className="object-cover"

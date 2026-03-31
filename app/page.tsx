@@ -112,6 +112,26 @@ export default function Home() {
               className="object-contain"
               style={{ width: '196.11px', height: '108.24px' }}
             />
+
+            {/* AFP Armor */}
+            <Image
+              src="/AFP Armor.jpg"
+              alt="AFP Armor"
+              width={120}
+              height={120}
+              className="object-contain"
+              style={{ maxWidth: '120px', maxHeight: '120px' }}
+            />
+
+            {/* Palmetto Fire */}
+            <Image
+              src="/PalmettoFireLogo.jpg"
+              alt="Palmetto Fire"
+              width={120}
+              height={120}
+              className="object-contain"
+              style={{ maxWidth: '120px', maxHeight: '120px' }}
+            />
           </div>
         </div>
       </section>

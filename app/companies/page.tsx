@@ -5,7 +5,7 @@ import Button from '@/components/ui/Button'
 export const metadata: Metadata = {
   title: 'Our Portfolio | Atlantis Fire Protection Companies',
   description:
-    'Discover our portfolio of proven fire protection companies including Allied Fire Protection, McCoy Fire, and Keller\'s. Each company brings decades of expertise and strong regional reputations.',
+    'Discover our portfolio of proven fire protection companies including Allied Fire Protection, McCoy Fire, Keller\'s, Palmetto Fire Services, and Armor Fire Services. Each company brings decades of expertise and strong regional reputations.',
   openGraph: {
     title: 'Our Portfolio | Atlantis Fire Protection Companies',
     description:
@@ -224,7 +224,129 @@ export default function CompaniesPage() {
       </section>
 
       {/* ============================================================
-          SECTION 5: INTERESTED IN JOINING
+          SECTION 5: PALMETTO FIRE SERVICES
+          All blue background, logo on left, quote below
+          ============================================================ */}
+      <section className="w-full bg-[#E5EEF8]">
+        <div className="max-w-[1440px] mx-auto">
+          {/* Top Section: Logo and Content Side by Side */}
+          <div className="flex flex-col lg:flex-row-reverse">
+            {/* Right Content */}
+            <div className="flex-1 p-[60px] lg:p-[80px]">
+              {/* Location Label */}
+              <p className="font-avenir font-bold text-navy text-[14px] uppercase tracking-wide mb-[16px]">
+                SOUTH CAROLINA
+              </p>
+
+              {/* Company Name */}
+              <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
+                Palmetto Fire Services
+              </h2>
+
+              {/* Tagline */}
+              <p className="body-palatino-18 text-black font-semibold mb-[24px]">
+                A trusted provider of fire alarm, security, and life safety solutions known for its hands-on approach and commitment to customer relationships.
+              </p>
+
+              {/* Body Text */}
+              <p className="body-palatino-18 text-black mb-[32px]">
+                With more than 17 years of experience, Palmetto delivers comprehensive services including design, installation, inspection, monitoring, and maintenance of fire alarm and low-voltage systems. Their expertise spans fire alarm systems, mass notification, access control, video surveillance, and UL-listed central station monitoring. Known for professionalism, reliability, and responsive service, Palmetto has built a strong reputation across South Carolina. Now part of the Atlantis Fire platform, the company continues to expand its capabilities while maintaining the high standards and personal service its customers trust.
+              </p>
+
+              {/* VISIT SITE Button */}
+              <Button href="https://pfsen.com/" variant="primary" size="md">
+                VISIT SITE
+              </Button>
+            </div>
+
+            {/* Left Logo */}
+            <div className="flex-1 flex items-center justify-center p-[60px] lg:p-[80px]">
+              <div className="relative w-full max-w-[300px]" style={{ aspectRatio: '1/1' }}>
+                <Image
+                  src="/PalmettoFireLogo.png"
+                  alt="Palmetto Fire Services"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Quote Section Below */}
+          <div className="max-w-[1200px] mx-auto px-[60px] lg:px-[80px] pb-[60px] lg:pb-[80px]">
+            <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
+              &quot;Over 17 years, my family and our team have built Palmetto into a company our customers can trust, and a company the community could rely upon to deliver best-in-class fire alarm protection. We weren&apos;t in the market to join a bigger fire protection platform, but as I heard Patrick and the Atlantis Fire team&apos;s vision for how they support operators and companies and position them to grow, I knew I wanted Palmetto Fire to be part of Atlantis Fire Protection. I look forward to working with Patrick, Stella Black, Vince McCoy, Tony Thomas, Mike Jaggers and others at Atlantis Fire to build one of the best-run, fastest growing platforms in the fire protection industry.&quot;
+            </p>
+            <p className="font-avenir font-semibold text-navy text-[14px]">
+              - Paul Brown, President and Founder of Palmetto Fire Services
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================
+          SECTION 6: ARMOR FIRE SERVICES
+          All cream background, logo on right, quote below
+          ============================================================ */}
+      <section className="w-full bg-cream">
+        <div className="max-w-[1440px] mx-auto">
+          {/* Top Section: Logo and Content Side by Side */}
+          <div className="flex flex-col lg:flex-row">
+            {/* Left Content */}
+            <div className="flex-1 p-[60px] lg:p-[80px]">
+              {/* Location Label */}
+              <p className="font-avenir font-bold text-navy text-[14px] uppercase tracking-wide mb-[16px]">
+                NORTH CAROLINA, SOUTH CAROLINA, VIRGINIA & GEORGIA
+              </p>
+
+              {/* Company Name */}
+              <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
+                Armor Fire Services
+              </h2>
+
+              {/* Tagline */}
+              <p className="body-palatino-18 text-black font-semibold mb-[24px]">
+                A trusted provider of fire protection services focused on reliability, responsiveness, and customer care.
+              </p>
+
+              {/* Body Text */}
+              <p className="body-palatino-18 text-black mb-[32px]">
+                Armor Fire Services is headquartered in Charlotte, North Carolina, and serves customers across the Southeast with a strong commitment to quality and service. The company specializes in the design, installation, and service of fire sprinkler systems, along with backflow prevention and underground piping inspection and repair, including camera diagnostics. With a hands-on approach and a customer-first mindset, Armor has built long-standing relationships with clients who rely on their team to protect people, property, and operations. Their addition to Atlantis strengthens our shared commitment to service excellence and expands our capabilities across a growing Southeast footprint.
+              </p>
+
+              {/* VISIT SITE Button */}
+              <Button href="https://armorfireandsafety.com/" variant="primary" size="md">
+                VISIT SITE
+              </Button>
+            </div>
+
+            {/* Right Logo */}
+            <div className="flex-1 flex items-center justify-center p-[60px] lg:p-[80px]">
+              <div className="relative w-full max-w-[300px]" style={{ aspectRatio: '1/1' }}>
+                <Image
+                  src="/AFP Armor.png"
+                  alt="Armor Fire Services"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Quote Section Below */}
+          <div className="max-w-[1200px] mx-auto px-[60px] lg:px-[80px] pb-[60px] lg:pb-[80px]">
+            <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
+              &quot;Armor Fire Services has always been about taking care of our customers and standing behind our work. Joining Atlantis allows the company to continue growing while staying true to the values we built it on. We&apos;re proud of what our team has accomplished and confident they are in great hands moving forward.&quot;
+            </p>
+            <p className="font-avenir font-semibold text-navy text-[14px]">
+              - Mike Jaggers Jr., President at Armor Fire Services
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================
+          SECTION 7: INTERESTED IN JOINING
           Centered CTA on cream background
           ============================================================ */}
       <section className="w-full bg-cream py-[80px]">
@@ -245,7 +367,7 @@ export default function CompaniesPage() {
       </section>
 
       {/* ============================================================
-          SECTION 6: ORANGE DECORATIVE IMAGE
+          SECTION 8: ORANGE DECORATIVE IMAGE
           ============================================================ */}
       <section className="w-full">
         <div className="w-full relative" style={{ height: '180px' }}>

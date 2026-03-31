@@ -261,7 +261,7 @@ export default function CompaniesPage() {
 
             {/* Left Logo */}
             <div className="flex-1 flex items-center justify-center p-[60px] lg:p-[80px]">
-              <div className="relative w-full max-w-[400px]" style={{ aspectRatio: '1/1' }}>
+              <div className="relative w-full max-w-[475px]" style={{ aspectRatio: '1/1' }}>
                 <Image
                   src="/PalmettoFireLogo.png"
                   alt="Palmetto Fire Services"
@@ -322,7 +322,7 @@ export default function CompaniesPage() {
 
             {/* Right Logo */}
             <div className="flex-1 flex items-center justify-center p-[60px] lg:p-[80px]">
-              <div className="relative w-full max-w-[300px]" style={{ aspectRatio: '1/1' }}>
+              <div className="relative w-full max-w-[375px]" style={{ aspectRatio: '1/1' }}>
                 <Image
                   src="/AFP Armor LG.png"
                   alt="Armor Fire Services"

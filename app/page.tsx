@@ -117,20 +117,20 @@ export default function Home() {
             <Image
               src="/AFP Armor.png"
               alt="AFP Armor"
-              width={120}
-              height={120}
+              width={160}
+              height={160}
               className="object-contain"
-              style={{ maxWidth: '120px', maxHeight: '120px' }}
+              style={{ width: '160px', height: '160px' }}
             />
 
             {/* Palmetto Fire */}
             <Image
               src="/PalmettoFireLogo.png"
               alt="Palmetto Fire"
-              width={120}
+              width={220}
               height={120}
               className="object-contain"
-              style={{ maxWidth: '120px', maxHeight: '120px' }}
+              style={{ width: '220px', height: '120px' }}
             />
           </div>
         </div>

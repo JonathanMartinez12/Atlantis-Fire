@@ -115,7 +115,7 @@ export default function Home() {
 
             {/* AFP Armor */}
             <Image
-              src="/AFP Armor.jpg"
+              src="/AFP Armor.png"
               alt="AFP Armor"
               width={120}
               height={120}
@@ -125,7 +125,7 @@ export default function Home() {
 
             {/* Palmetto Fire */}
             <Image
-              src="/PalmettoFireLogo.jpg"
+              src="/PalmettoFireLogo.png"
               alt="Palmetto Fire"
               width={120}
               height={120}

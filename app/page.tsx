@@ -115,7 +115,7 @@ export default function Home() {
 
             {/* AFP Armor */}
             <Image
-              src="/AFP Armor.png"
+              src="/AFP Armor LG.png"
               alt="AFP Armor"
               width={160}
               height={160}

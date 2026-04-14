@@ -76,7 +76,7 @@ export default function AboutPage() {
           {/* Right Image */}
           <div className="flex-1 relative" style={{ minHeight: '500px' }}>
             <Image
-              src="/about_page_picture.jpeg"
+              src="/AFP logo rendering (1).png"
               alt="About Atlantis Fire"
               fill
               className="object-cover"

@@ -132,7 +132,7 @@ export default function Home() {
             style={{ width: '521.67px', height: '401.10px' }}
           >
             <Image
-              src="/picturetwo.jpg"
+              src="/new_who_are_we.jpg"
               alt="Fire Protection Equipment"
               fill
               className="object-cover"
@@ -240,7 +240,7 @@ export default function Home() {
                 style={{ height: '280px' }}
               >
                 <Image
-                  src="/picturethree.jpg"
+                  src="/new_our-portfolio.jpg"
                   alt="Our Portfolio"
                   fill
                   className="object-cover"
@@ -266,7 +266,7 @@ export default function Home() {
                 style={{ height: '280px' }}
               >
                 <Image
-                  src="/picturefour.jpg"
+                  src="/new_Operational_excellence.jpg"
                   alt="Total Combined Expertise"
                   fill
                   className="object-cover"

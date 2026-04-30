@@ -112,6 +112,26 @@ export default function Home() {
               className="object-contain"
               style={{ width: '196.11px', height: '108.24px' }}
             />
+
+            {/* AFP Armor */}
+            <Image
+              src="/AFP Armor LG.png"
+              alt="AFP Armor"
+              width={185}
+              height={185}
+              className="object-contain"
+              style={{ width: '185px', height: '185px' }}
+            />
+
+            {/* Palmetto Fire */}
+            <Image
+              src="/PalmettoFireLogo.png"
+              alt="Palmetto Fire"
+              width={185}
+              height={120}
+              className="object-contain"
+              style={{ width: '185px', height: '120px' }}
+            />
           </div>
         </div>
       </section>
@@ -258,7 +278,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Card 2 - TOTAL COMBINED EXPERTISE */}
+            {/* Card 2 - OPERATIONAL EXCELLENCE */}
             <div className="flex flex-col items-center" style={{ maxWidth: '500px' }}>
               {/* Image */}
               <div

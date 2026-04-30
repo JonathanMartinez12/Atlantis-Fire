@@ -7,17 +7,16 @@ export default function Home() {
       {/* ============================================================
           SECTION 1: ABOUT ATLANTIS
           Cream content on left + image on right
-          Contained with equal padding on both sides
+          Image extends to edge of screen
           ============================================================ */}
       <section className="w-full">
-        <div className="max-w-[1440px] mx-auto px-[60px]">
-          <div className="flex flex-col lg:flex-row">
-            {/* Left Content - Cream Background - approximately 60% */}
-            <div
-              className="bg-cream w-full lg:w-[60%] flex items-center"
-              style={{ minHeight: '600px' }}
-            >
-              <div className="px-[40px] py-[60px] lg:pl-[60px] lg:pr-[60px] max-w-[700px]">
+        <div className="flex flex-col lg:flex-row">
+          {/* Left Content - Cream Background - approximately 60% */}
+          <div
+            className="bg-cream w-full lg:w-[60%] flex items-center"
+            style={{ minHeight: '600px' }}
+          >
+            <div className="px-[40px] py-[60px] lg:pl-[80px] lg:pr-[60px] max-w-[700px] ml-auto lg:ml-[80px]">
               {/* Label - ABOUT ATLANTIS - Avenir Bold 14pt */}
               <p className="label-text text-navy mb-[16px]">ABOUT ATLANTIS</p>
 
@@ -47,18 +46,17 @@ export default function Home() {
           {/* Thin vertical white gap */}
           <div className="hidden lg:block w-[24px] bg-white" style={{ minHeight: '600px' }} />
 
-            {/* Right Image - contained within padding */}
-            <div
-              className="w-full lg:flex-1 relative"
-              style={{ minHeight: '600px' }}
-            >
-              <Image
-                src="/pictureoneone.jpg"
-                alt="About Atlantis"
-                fill
-                className="object-cover"
-              />
-            </div>
+          {/* Right Image - extends to edge */}
+          <div
+            className="w-full lg:flex-1 relative"
+            style={{ minHeight: '600px' }}
+          >
+            <Image
+              src="/pictureone.jpg"
+              alt="About Atlantis"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
       </section>
@@ -112,26 +110,6 @@ export default function Home() {
               className="object-contain"
               style={{ width: '196.11px', height: '108.24px' }}
             />
-
-            {/* AFP Armor */}
-            <Image
-              src="/AFP Armor LG.png"
-              alt="AFP Armor"
-              width={185}
-              height={185}
-              className="object-contain"
-              style={{ width: '185px', height: '185px' }}
-            />
-
-            {/* Palmetto Fire */}
-            <Image
-              src="/PalmettoFireLogo.png"
-              alt="Palmetto Fire"
-              width={185}
-              height={120}
-              className="object-contain"
-              style={{ width: '185px', height: '120px' }}
-            />
           </div>
         </div>
       </section>
@@ -152,7 +130,7 @@ export default function Home() {
             style={{ width: '521.67px', height: '401.10px' }}
           >
             <Image
-              src="/picturetwo.jpg"
+              src="/new_who_are_we.jpg"
               alt="Fire Protection Equipment"
               fill
               className="object-cover"
@@ -161,14 +139,14 @@ export default function Home() {
 
           {/* Right Content - 521.67px x 224.81px text area */}
           <div className="flex-1" style={{ maxWidth: '521.67px' }}>
-            {/* Headline - Match hero headline style */}
-            <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
+            {/* Headline - Palatino 48pt italic */}
+            <h2 className="heading-palatino-48 mb-[24px]">
               Who We Are
             </h2>
 
             {/* Body text - Palatino 18pt */}
             <p className="body-palatino-18 mb-[24px]">
-              Atlantis Fire was formed to give fire protection business owners a founder-friendly option. We believe in protecting our companies&apos; legacies, valuing their people and ensuring the long-term success of their customers and communities.
+              Atlantis Fire was founded to give fire protection business owners a founder-friendly option. We believe in protecting our companies&apos; legacies, valuing their people and ensuring the long-term success of their customers and communities.
             </p>
 
             <p className="body-palatino-18 mb-[32px]">
@@ -193,8 +171,8 @@ export default function Home() {
         {/* Full-width white box - 1440px max width */}
         <div className="w-full bg-white py-[60px] px-[40px] lg:px-[80px]">
           <div className="max-w-[1200px] mx-auto">
-            {/* Section Title - Match hero headline style */}
-            <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight text-center mb-[60px]">
+            {/* Section Title - Palatino 48pt italic */}
+            <h2 className="heading-palatino-48 text-center mb-[60px]">
               Why Atlantis
             </h2>
 
@@ -260,7 +238,7 @@ export default function Home() {
                 style={{ height: '280px' }}
               >
                 <Image
-                  src="/picturethree.jpg"
+                  src="/new_our-portfolio.jpg"
                   alt="Our Portfolio"
                   fill
                   className="object-cover"
@@ -286,7 +264,7 @@ export default function Home() {
                 style={{ height: '280px' }}
               >
                 <Image
-                  src="/picturefour.jpg"
+                  src="/new_Operational_excellence.jpg"
                   alt="Total Combined Expertise"
                   fill
                   className="object-cover"
@@ -295,12 +273,12 @@ export default function Home() {
 
               {/* Card Title - Navy uppercase */}
               <h3 className="font-avenir font-bold text-navy text-[20px] uppercase tracking-wide text-center mb-[16px]">
-                OPERATIONAL EXCELLENCE
+                TOTAL COMBINED EXPERTISE
               </h3>
 
               {/* Card Body */}
               <p className="body-text text-center">
-                With strong local roots and longevity in the industry, our companies bring deep technical knowledge across fire alarm, fire sprinkler, and special hazard systems. Each company is supported by NICET-certified engineering teams and a culture built on safety, quality, and operational excellence.
+                With 81 years of combined operating history, our companies bring deep technical knowledge across fire alarm, sprinkler, and special hazard systems—supported by NICET-certified engineering teams and a culture built on safety, quality, and operational excellence.
               </p>
             </div>
           </div>
@@ -331,14 +309,14 @@ export default function Home() {
           ============================================================ */}
       <section className="w-full bg-white py-[80px]">
         <div className="max-w-[1063px] mx-auto px-[40px] text-center">
-          {/* Heading - Match hero headline style */}
-          <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
+          {/* Heading - Palatino 48pt */}
+          <h2 className="heading-palatino-48 mb-[24px]">
             Ready to Connect?
           </h2>
 
           {/* Body text - Palatino 18pt */}
           <p className="body-palatino-18 mb-[40px]">
-            Whether you&apos;re exploring a partnership or want to learn more about our portfolio, please reach out for more information.
+            Whether you&apos;re exploring a partnership or want to learn more about our portfolio, we&apos;re here to help.
           </p>
 
           {/* CONTACT Button */}

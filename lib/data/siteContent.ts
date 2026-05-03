@@ -4,11 +4,12 @@ export const siteConfig = {
   description: 'A Family-Owned Fire Protection Holding Company',
   url: 'https://atlantisfire.com',
   copyright: 'Atlantis Fire © 2026',
+  email: 'info@atlantisfire.com',
 }
 
 export const navigation = {
   main: [
-    { name: 'About Atlantis', href: '/about' },
+    { name: 'About Atlantis Fire', href: '/about' },
     { name: 'Our Companies', href: '/companies' },
   ],
   footer: [
@@ -25,7 +26,7 @@ export const homeContent = {
     cta: 'Contact Us',
   },
   whoWeAre: {
-    label: 'ABOUT ATLANTIS',
+    label: 'ABOUT ATLANTIS FIRE',
     headline: 'Who We Are',
     body: [
       'Atlantis Fire was formed to give fire protection business owners a founder-friendly option. We believe in protecting our companies\' legacies, valuing their people and ensuring the long-term success of their customers and communities.',
@@ -34,8 +35,8 @@ export const homeContent = {
     link: { text: 'Learn More', href: '/about' },
   },
   whyAtlantis: {
-    label: 'WHY ATLANTIS',
-    headline: 'Why Atlantis',
+    label: 'WHY ATLANTIS FIRE',
+    headline: 'Why Atlantis Fire?',
     cards: [
       {
         title: 'Family-Owned & Founder-Friendly',
@@ -79,7 +80,7 @@ export const homeContent = {
 
 export const aboutContent = {
   hero: {
-    label: 'ABOUT ATLANTIS',
+    label: 'ABOUT ATLANTIS FIRE',
     headline: 'Our Story',
   },
   story: {
@@ -120,8 +121,8 @@ export const aboutContent = {
     ],
   },
   platform: {
-    label: 'THE ATLANTIS PLATFORM',
-    headline: 'The Atlantis Platform',
+    label: 'THE ATLANTIS FIRE PLATFORM',
+    headline: 'The Atlantis Fire Platform',
     intro: 'We help our companies thrive through:',
     items: [
       'Strategic leadership support',
@@ -142,7 +143,7 @@ export const companiesContent = {
     body: 'Atlantis Fire is proud to support a growing family of fire protection brands with decades of expertise and strong reputations in their regions. Each company retains its identity while benefiting from the strength and scale of the Atlantis operating platform.',
   },
   cta: {
-    headline: 'Interested in Joining the Atlantis Family?',
+    headline: 'Interested in Joining the Atlantis Fire Family?',
     text: 'Atlantis Fire partners with strong fire protection companies that share our values and commitment to operational excellence.',
     button: { text: 'Contact Us to Start the Conversation', href: '/contact' },
   },

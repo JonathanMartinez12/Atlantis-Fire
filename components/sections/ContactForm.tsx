@@ -60,13 +60,20 @@ export default function ContactForm() {
 
     if (!validateForm()) return
 
-    setIsSubmitting(true)
+    // Construct mailto: URL with form data
+    const subject = encodeURIComponent('New Contact Form Inquiry')
+    const body = encodeURIComponent(
+      `Name: ${formData.fullName}\n` +
+      `Email: ${formData.email}\n` +
+      `Company: ${formData.companyName || 'N/A'}\n` +
+      `Phone: ${formData.phone || 'N/A'}\n\n` +
+      `Message:\n${formData.message}`
+    )
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    const mailtoUrl = `mailto:info@atlantisfire.com?subject=${subject}&body=${body}`
 
-    setIsSubmitting(false)
-    setIsSuccess(true)
+    // Open email client
+    window.location.href = mailtoUrl
   }
 
   const handleChange = (field: keyof FormData) => (

@@ -81,8 +81,8 @@ export default function Home() {
         style={{ backgroundColor: '#e5eef8', minHeight: '180px' }}
       >
         <div className="w-full h-full flex items-center" style={{ minHeight: '180px' }}>
-          {/* Logo Row - evenly distributed spacing */}
-          <div className="flex items-center justify-evenly px-[40px] lg:px-[108.33px] w-full">
+          {/* Logo Row - responsive grid layout */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[20px] px-[40px] lg:px-[108.33px] w-full items-center justify-items-center">
             {/* Allied FireProtection - 117.58px x 120px */}
             <Image
               src="/allied_logo.png"

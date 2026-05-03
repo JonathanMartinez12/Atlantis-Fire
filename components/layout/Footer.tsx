@@ -60,7 +60,14 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-[48px] pt-[32px] border-t border-navy-400">
           <p className="text-gray-400 text-[14px] text-center">
-            {siteConfig.copyright}
+            © Copyright 2026 Atlantis Fire Protection, LLC |{' '}
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">
+              Privacy Policy
+            </Link>{' '}
+            |{' '}
+            <a href="mailto:info@atlantisfire.com" className="hover:text-white transition-colors">
+              info@atlantisfire.com
+            </a>
           </p>
         </div>
       </Container>

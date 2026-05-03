@@ -195,7 +195,7 @@ export default function Home() {
           <div className="max-w-[1200px] mx-auto">
             {/* Section Title - Match hero headline style */}
             <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight text-center mb-[60px]">
-              Why Atlantis
+              Why Atlantis Fire?
             </h2>
 
             {/* 4 Columns - 1200px x 147.75px content area */}

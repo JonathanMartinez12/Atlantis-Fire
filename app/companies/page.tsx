@@ -191,11 +191,6 @@ export default function CompaniesPage() {
               <p className="body-palatino-18 text-black mb-[32px]">
                 Established in 1973, Keller&apos;s is known for its unmatched strength in fire alarm engineering, design, and service. With multiple NICET IV-certified professionals and more than 50 years of history, Keller&apos;s is trusted by nuclear facilities, government agencies, industrial campuses, and other highly specialized environments. Their longevity, technical excellence, and long-tenured team make Keller&apos;s one of the most respected fire alarm companies in the industry, serving clients locally, nationally, and globally.
               </p>
-
-              {/* VISIT SITE Button */}
-              <Button href="https://www.kellersllc.com" variant="primary" size="md">
-                VISIT SITE
-              </Button>
             </div>
 
             {/* Right Logo */}
@@ -313,11 +308,6 @@ export default function CompaniesPage() {
               <p className="body-palatino-18 text-black mb-[32px]">
                 Armor Fire Services is headquartered in Charlotte, North Carolina, and serves customers across the Southeast with a strong commitment to quality and service. The company specializes in the design, installation, and service of fire sprinkler systems, along with backflow prevention and underground piping inspection and repair, including camera diagnostics. With a hands-on approach and a customer-first mindset, Armor has built long-standing relationships with clients who rely on their team to protect people, property, and operations. Their addition to Atlantis strengthens our shared commitment to service excellence and expands our capabilities across a growing Southeast footprint.
               </p>
-
-              {/* VISIT SITE Button */}
-              <Button href="https://armorfireandsafety.com/" variant="primary" size="md">
-                VISIT SITE
-              </Button>
             </div>
 
             {/* Right Logo */}

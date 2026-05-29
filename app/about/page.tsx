@@ -268,10 +268,13 @@ export default function AboutPage() {
             Connect with us to discover how Atlantis Fire can support your fire protection business.
           </p>
 
-          {/* CONTACT Button */}
-          <Button href="/contact" variant="primary" size="md">
-            CONTACT
-          </Button>
+          {/* GET IN TOUCH Button */}
+          <a
+            href="mailto:info@atlantisfire.com?subject=Inquiry from Atlantis Fire Website"
+            className="inline-flex items-center justify-center h-[34px] px-[24px] bg-coral text-white font-semibold text-[14px] tracking-[0.5px] rounded-[2px] hover:bg-[#FF8C42] transition-colors duration-200 no-underline"
+          >
+            GET IN TOUCH
+          </a>
         </div>
       </section>
 

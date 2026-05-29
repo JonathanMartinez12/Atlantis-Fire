@@ -100,7 +100,7 @@ export default function RootLayout({
               contactPoint: {
                 '@type': 'ContactPoint',
                 contactType: 'customer service',
-                url: 'https://atlantisfire.com/contact',
+                email: 'info@atlantisfire.com',
               },
               areaServed: 'United States',
               serviceType: [

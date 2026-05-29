@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import Button from '@/components/ui/Button'
 
@@ -341,9 +343,13 @@ export default function Home() {
             Whether you&apos;re exploring a partnership or want to learn more about our portfolio, please reach out for more information.
           </p>
 
-          {/* CONTACT Button */}
-          <Button href="/contact" variant="primary" size="md">
-            CONTACT
+          {/* GET IN TOUCH Button */}
+          <Button
+            onClick={() => window.location.href = 'mailto:info@atlantisfire.com?subject=Inquiry from Atlantis Fire Website'}
+            variant="primary"
+            size="md"
+          >
+            GET IN TOUCH
           </Button>
         </div>
       </section>

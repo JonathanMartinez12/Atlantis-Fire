@@ -45,15 +45,15 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-white font-semibold mb-[16px]">Contact</h3>
-            <Link
-              href="/contact"
-              className="font-medium transition-colors duration-200"
+            <button
+              onClick={() => window.location.href = 'mailto:info@atlantisfire.com?subject=Inquiry from Atlantis Fire Website'}
+              className="font-medium transition-colors duration-200 cursor-pointer bg-transparent border-none p-0 text-left"
               style={{ color: '#FF6B35' }}
               onMouseEnter={(e) => e.currentTarget.style.color = '#FF8C42'}
               onMouseLeave={(e) => e.currentTarget.style.color = '#FF6B35'}
             >
               Get in Touch
-            </Link>
+            </button>
           </div>
         </div>
 

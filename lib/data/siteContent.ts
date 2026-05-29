@@ -15,7 +15,6 @@ export const navigation = {
   footer: [
     { name: 'About', href: '/about' },
     { name: 'Our Companies', href: '/companies' },
-    { name: 'Contact', href: '/contact' },
   ],
 }
 
@@ -74,7 +73,7 @@ export const homeContent = {
   cta: {
     headline: 'Ready to Connect?',
     text: 'Whether you\'re exploring a partnership or want to learn more about our portfolio, please reach out for more information.',
-    button: { text: 'Contact Us', href: '/contact' },
+    button: { text: 'GET IN TOUCH', href: 'mailto:info@atlantisfire.com?subject=Inquiry from Atlantis Fire Website' },
   },
 }
 
@@ -145,7 +144,7 @@ export const companiesContent = {
   cta: {
     headline: 'Interested in Joining the Atlantis Fire Family?',
     text: 'Atlantis Fire partners with strong fire protection companies that share our values and commitment to operational excellence.',
-    button: { text: 'Contact Us to Start the Conversation', href: '/contact' },
+    button: { text: 'GET IN TOUCH', href: 'mailto:info@atlantisfire.com?subject=Inquiry from Atlantis Fire Website' },
   },
 }
 

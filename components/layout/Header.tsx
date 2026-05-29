@@ -41,8 +41,12 @@ export default function Header() {
                   {item.name.toUpperCase()}
                 </Link>
               ))}
-              <Button href="/contact" variant="primary" size="md">
-                CONTACT
+              <Button
+                onClick={() => window.location.href = 'mailto:info@atlantisfire.com?subject=Inquiry from Atlantis Fire Website'}
+                variant="primary"
+                size="md"
+              >
+                GET IN TOUCH
               </Button>
             </div>
 
@@ -80,8 +84,13 @@ export default function Header() {
                     {item.name.toUpperCase()}
                   </Link>
                 ))}
-                <Button href="/contact" variant="primary" size="md" className="w-[158px] mt-[8px]">
-                  CONTACT
+                <Button
+                  onClick={() => window.location.href = 'mailto:info@atlantisfire.com?subject=Inquiry from Atlantis Fire Website'}
+                  variant="primary"
+                  size="md"
+                  className="w-[158px] mt-[8px]"
+                >
+                  GET IN TOUCH
                 </Button>
               </div>
             </div>

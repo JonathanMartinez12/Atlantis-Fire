@@ -350,9 +350,12 @@ export default function CompaniesPage() {
           <p className="body-palatino-18 text-black mb-[40px]">
             Contact us to start the conversation.
           </p>
-          <Button href="/contact" variant="primary" size="md">
-            CONTACT
-          </Button>
+          <a
+            href="mailto:info@atlantisfire.com?subject=Inquiry from Atlantis Fire Website"
+            className="inline-flex items-center justify-center h-[34px] px-[24px] bg-coral text-white font-semibold text-[14px] tracking-[0.5px] rounded-[2px] hover:bg-[#FF8C42] transition-colors duration-200 no-underline"
+          >
+            GET IN TOUCH
+          </a>
         </div>
       </section>
 

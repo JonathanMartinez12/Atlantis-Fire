@@ -128,7 +128,7 @@ export default function CompaniesPage() {
 
               {/* Body Text */}
               <p className="body-palatino-18 text-black mb-[32px]">
-                Since 2000, McCoy Fire has been recognized by fire marshals, inspectors, and industry professionals as the go-to source for resolving difficult sprinkler and fire alarm issues. With over 25 years of service across Alabama, Florida, Georgia, Tennessee, Mississippi, and South Carolina, McCoy provides engineering, design, installation, inspection, and service for sprinkler, fire alarm, and special hazard systems. Their deep technical expertise and reputation for solving challenging problems make McCoy a cornerstone in the Atlantis portfolio.
+                Since 2000, McCoy Fire has been recognized by fire marshals, inspectors, and industry professionals as the go-to source for resolving difficult sprinkler and fire alarm issues. With over 25 years of service across Alabama, Florida, Georgia, Tennessee, Mississippi, and South Carolina, McCoy provides engineering, design, installation, inspection, and service for sprinkler, fire alarm, and special hazard systems. Their deep technical expertise and reputation for solving challenging problems make McCoy a cornerstone in the Atlantis Fire portfolio.
               </p>
 
               {/* VISIT SITE Button */}
@@ -306,7 +306,7 @@ export default function CompaniesPage() {
 
               {/* Body Text */}
               <p className="body-palatino-18 text-black mb-[32px]">
-                Armor Fire Services is headquartered in Charlotte, North Carolina, and serves customers across the Southeast with a strong commitment to quality and service. The company specializes in the design, installation, and service of fire sprinkler systems, along with backflow prevention and underground piping inspection and repair, including camera diagnostics. With a hands-on approach and a customer-first mindset, Armor has built long-standing relationships with clients who rely on their team to protect people, property, and operations. Their addition to Atlantis strengthens our shared commitment to service excellence and expands our capabilities across a growing Southeast footprint.
+                Armor Fire Services is headquartered in Charlotte, North Carolina, and serves customers across the Southeast with a strong commitment to quality and service. The company specializes in the design, installation, and service of fire sprinkler systems, along with backflow prevention and underground piping inspection and repair, including camera diagnostics. With a hands-on approach and a customer-first mindset, Armor has built long-standing relationships with clients who rely on their team to protect people, property, and operations. Their addition to Atlantis Fire strengthens our shared commitment to service excellence and expands our capabilities across a growing Southeast footprint.
               </p>
             </div>
 
@@ -326,7 +326,7 @@ export default function CompaniesPage() {
           {/* Quote Section Below */}
           <div className="max-w-[1200px] mx-auto px-[60px] lg:px-[80px] pb-[60px] lg:pb-[80px]">
             <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
-              &quot;Armor Fire Services has always been about taking care of our customers and standing behind our work. Joining Atlantis allows the company to continue growing while staying true to the values we built it on. We&apos;re proud of what our team has accomplished and confident they are in great hands moving forward.&quot;
+              &quot;Armor Fire Services has always been about taking care of our customers and standing behind our work. Joining Atlantis Fire allows the company to continue growing while staying true to the values we built it on. We&apos;re proud of what our team has accomplished and confident they are in great hands moving forward.&quot;
             </p>
             <p className="font-avenir font-semibold text-navy text-[14px]">
               - Mike Jaggers Jr., President at Armor Fire Services
@@ -342,7 +342,7 @@ export default function CompaniesPage() {
       <section className="w-full bg-cream py-[80px]">
         <div className="max-w-[1000px] mx-auto px-[40px] text-center">
           <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
-            Interested in Joining the Atlantis Family?
+            Interested in Joining the Atlantis Fire Family?
           </h2>
           <p className="body-palatino-18 text-black mb-[16px]">
             Atlantis Fire partners with strong fire protection companies that share our values and commitment to operational excellence.

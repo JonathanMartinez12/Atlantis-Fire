@@ -33,8 +33,8 @@ export default function AboutPage() {
         <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row py-[80px] px-[40px] lg:px-[80px]">
           {/* Left Content */}
           <div className="flex-1 lg:mr-[60px] mb-[40px] lg:mb-0">
-            {/* Label - ABOUT ATLANTIS */}
-            <p className="label-text text-navy mb-[16px]">ABOUT ATLANTIS</p>
+            {/* Label - ABOUT ATLANTIS FIRE */}
+            <p className="label-text text-navy mb-[16px]">ABOUT ATLANTIS FIRE</p>
 
             {/* Headline - Our Story */}
             <h1 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[32px]">
@@ -199,7 +199,7 @@ export default function AboutPage() {
         <div className="max-w-[1200px] mx-auto px-[40px] lg:px-[80px]">
           {/* Heading */}
           <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight text-center mb-[16px]">
-            The Atlantis Platform
+            The Atlantis Fire Platform
           </h2>
 
           {/* Subheading */}

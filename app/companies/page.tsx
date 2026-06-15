@@ -308,6 +308,11 @@ export default function CompaniesPage() {
               <p className="body-palatino-18 text-black mb-[32px]">
                 Armor Fire Services is headquartered in Charlotte, North Carolina, and serves customers across the Southeast with a strong commitment to quality and service. The company specializes in the design, installation, and service of fire sprinkler systems, along with backflow prevention and underground piping inspection and repair, including camera diagnostics. With a hands-on approach and a customer-first mindset, Armor has built long-standing relationships with clients who rely on their team to protect people, property, and operations. Their addition to Atlantis Fire strengthens our shared commitment to service excellence and expands our capabilities across a growing Southeast footprint.
               </p>
+
+              {/* VISIT SITE Button */}
+              <Button href="https://www.armorfireservices.com/" variant="primary" size="md">
+                VISIT SITE
+              </Button>
             </div>
 
             {/* Right Logo */}

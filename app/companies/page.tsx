@@ -71,7 +71,7 @@ export default function CompaniesPage() {
               </p>
 
               {/* VISIT SITE Button */}
-              <Button href="https://www.alliedfireprotection.net" variant="primary" size="md">
+              <Button href="https://www.alliedfireprotectionllc.com" variant="primary" size="md">
                 VISIT SITE
               </Button>
             </div>

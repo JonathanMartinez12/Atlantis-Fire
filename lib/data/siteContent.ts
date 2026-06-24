@@ -11,10 +11,12 @@ export const navigation = {
   main: [
     { name: 'About Atlantis Fire', href: '/about' },
     { name: 'Our Companies', href: '/companies' },
+    { name: 'News', href: '/news' },
   ],
   footer: [
     { name: 'About', href: '/about' },
     { name: 'Our Companies', href: '/companies' },
+    { name: 'News', href: '/news' },
   ],
 }
 

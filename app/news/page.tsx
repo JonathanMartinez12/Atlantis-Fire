@@ -89,12 +89,21 @@ export default function NewsPage() {
                 </Link>
               </div>
 
-              {/* Right Image Placeholder */}
+              {/* Right Image */}
               <div className="flex-1 flex items-center justify-center">
-                <div className="w-full max-w-[500px] aspect-[4/3] bg-[#E5EEF8] rounded-[4px] flex items-center justify-center">
-                  <svg className="w-[80px] h-[80px] text-navy opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-                  </svg>
+                <div className="relative w-full max-w-[500px] aspect-[4/3] bg-[#E5EEF8] rounded-[4px] flex items-center justify-center overflow-hidden">
+                  {featuredArticle.image ? (
+                    <Image
+                      src={featuredArticle.image}
+                      alt={featuredArticle.title}
+                      fill
+                      className="object-contain p-[40px]"
+                    />
+                  ) : (
+                    <svg className="w-[80px] h-[80px] text-navy opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                    </svg>
+                  )}
                 </div>
               </div>
             </div>
@@ -122,11 +131,20 @@ export default function NewsPage() {
                   href={`/news/${article.slug}`}
                   className="group bg-white rounded-[4px] overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
                 >
-                  {/* Image Placeholder */}
-                  <div className="w-full aspect-[16/10] bg-[#E5EEF8] flex items-center justify-center">
-                    <svg className="w-[60px] h-[60px] text-navy opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-                    </svg>
+                  {/* Image */}
+                  <div className="relative w-full aspect-[16/10] bg-[#E5EEF8] flex items-center justify-center overflow-hidden">
+                    {article.image ? (
+                      <Image
+                        src={article.image}
+                        alt={article.title}
+                        fill
+                        className="object-contain p-[24px]"
+                      />
+                    ) : (
+                      <svg className="w-[60px] h-[60px] text-navy opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                      </svg>
+                    )}
                   </div>
 
                   {/* Card Content */}

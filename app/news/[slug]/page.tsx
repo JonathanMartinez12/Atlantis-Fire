@@ -98,6 +98,18 @@ export default function ArticlePage({ params }: PageProps) {
           <p className="body-palatino-18 text-black font-semibold italic border-l-4 border-coral pl-[24px] mb-[24px]">
             {article.excerpt}
           </p>
+
+          {/* Article Image */}
+          {article.image && (
+            <div className="relative w-full max-w-[600px] aspect-[16/9] bg-[#E5EEF8] rounded-[4px] overflow-hidden mt-[40px]">
+              <Image
+                src={article.image}
+                alt={article.title}
+                fill
+                className="object-contain p-[40px]"
+              />
+            </div>
+          )}
         </div>
       </section>
 

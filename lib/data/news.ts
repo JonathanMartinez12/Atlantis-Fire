@@ -5,6 +5,7 @@ export interface NewsArticle {
   date: string
   category: 'Press Release' | 'Company Update' | 'Industry News'
   excerpt: string
+  image?: string
   content: {
     subtitle?: string
     location?: string
@@ -32,6 +33,7 @@ export const newsArticles: NewsArticle[] = [
     date: 'June 10, 2026',
     category: 'Press Release',
     excerpt: 'Danny Dickinson, Founder and Owner of Bama Fire since 2006, becomes a partner of Atlantis Fire Protection.',
+    image: '/bama_logo.png',
     content: {
       location: 'DALLAS',
       subtitle: 'Atlantis Fire Protection adds Bama Fire Protection to its growing fire protection platform',

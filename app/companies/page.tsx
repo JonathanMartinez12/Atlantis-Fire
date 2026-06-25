@@ -102,6 +102,62 @@ export default function CompaniesPage() {
       </section>
 
       {/* ============================================================
+          SECTION 2B: BAMA FIRE PROTECTION
+          All blue background, logo on left, quote below
+          ============================================================ */}
+      <section className="w-full bg-[#E5EEF8]">
+        <div className="max-w-[1440px] mx-auto">
+          {/* Top Section: Logo and Content Side by Side */}
+          <div className="flex flex-col lg:flex-row-reverse">
+            {/* Right Content */}
+            <div className="flex-1 p-[60px] lg:p-[80px]">
+              {/* Location Label */}
+              <p className="font-avenir font-bold text-navy text-[14px] uppercase tracking-wide mb-[16px]">
+                ALABAMA
+              </p>
+
+              {/* Company Name */}
+              <h2 className="font-serif text-navy text-[36px] md:text-[42px] lg:text-[48px] leading-tight mb-[24px]">
+                Bama Fire Protection
+              </h2>
+
+              {/* Tagline */}
+              <p className="body-palatino-18 text-black font-semibold mb-[24px]">
+                A trusted leader in fire extinguisher and suppression services across Alabama.
+              </p>
+
+              {/* Body Text */}
+              <p className="body-palatino-18 text-black mb-[32px]">
+                Founded in 2006 by Owner Danny Dickinson, Bama Fire Protection has built an outstanding reputation across Alabama as a leading provider of fire safety, extinguisher, and suppression services. Now operating in conjunction with Allied Fire Protection while retaining the Bama Fire brand, the company combines decades of specialized expertise with Allied&apos;s exceptional fire alarm and sprinkler capabilities to deliver a full suite of fire protection services throughout the state.
+              </p>
+            </div>
+
+            {/* Left Logo */}
+            <div className="flex-1 flex items-center justify-center p-[60px] lg:p-[80px]">
+              <div className="relative w-full max-w-[300px]" style={{ aspectRatio: '1/1' }}>
+                <Image
+                  src="/bama_logo.png"
+                  alt="Bama Fire Protection"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Quote Section Below */}
+          <div className="max-w-[1200px] mx-auto px-[60px] lg:px-[80px] pb-[60px] lg:pb-[80px]">
+            <p className="font-serif italic text-navy text-[16px] leading-relaxed mb-[16px]">
+              &quot;For over 20 years, we built Bama Fire into a company our customers can trust and one the community can rely upon to deliver best-in-class fire extinguisher and suppression. As I heard Patrick Lynch&apos;s and Atlantis Fire Protection&apos;s vision for combining Bama Fire and Allied Fire to service customers for all their fire safety needs, I decided I wanted Bama Fire to be part of that. I look forward to now being a partner in Atlantis Fire, and supporting where I can, as we build one of the best-run, fastest growing platforms in the fire protection industry.&quot;
+            </p>
+            <p className="font-avenir font-semibold text-navy text-[14px]">
+              - Danny Dickinson, Founder and Owner, Bama Fire Protection
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================
           SECTION 3: MCCOY FIRE
           All cream background, logo on left, quote below
           ============================================================ */}

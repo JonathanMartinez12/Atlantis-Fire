@@ -97,7 +97,7 @@ export default function Home() {
 
             {/* Bama Fire Protection */}
             <Image
-              src="/bamaFinal.avif"
+              src="/bama_fire.png"
               alt="Bama Fire Protection"
               width={210}
               height={135}

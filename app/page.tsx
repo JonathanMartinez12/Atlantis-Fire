@@ -84,7 +84,7 @@ export default function Home() {
       >
         <div className="w-full h-full flex items-center" style={{ minHeight: '180px' }}>
           {/* Logo Row - responsive grid layout */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[20px] px-[40px] lg:px-[108.33px] w-full items-center justify-items-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-[20px] px-[40px] lg:px-[60px] w-full items-center justify-items-center">
             {/* Allied FireProtection - 117.58px x 120px */}
             <Image
               src="/allied_logo.png"
@@ -93,6 +93,16 @@ export default function Home() {
               height={120}
               className="object-contain"
               style={{ width: '117.58px', height: '120px' }}
+            />
+
+            {/* Bama Fire Protection */}
+            <Image
+              src="/bamaFinal.avif"
+              alt="Bama Fire Protection"
+              width={185}
+              height={120}
+              className="object-contain"
+              style={{ width: '185px', height: '120px' }}
             />
 
             {/* McCoy Fire - 120px x 120px */}

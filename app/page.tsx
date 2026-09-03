@@ -99,10 +99,10 @@ export default function Home() {
             <Image
               src="/bamaFinal.avif"
               alt="Bama Fire Protection"
-              width={185}
-              height={120}
+              width={210}
+              height={135}
               className="object-contain"
-              style={{ width: '185px', height: '120px' }}
+              style={{ width: '210px', height: '135px' }}
             />
 
             {/* McCoy Fire - 120px x 120px */}
